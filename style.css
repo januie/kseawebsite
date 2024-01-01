@@ -90,3 +90,104 @@ nav img {
 .video h1 {
     color: #2E3192;
 }
+
+/* About KSEA Page */
+.subheader {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.subheader h1{
+    margin-top: 100px;
+}
+
+.aboutksea {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.aboutksea h5 {
+    font-size: 13px;
+    color: #000000;
+}
+
+/* Board Members Page */
+.subheader2 {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic3.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.subheader2 h1{
+    margin-top: 100px;
+}
+
+.boardmem {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* Event Page */
+.subheader3 {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.subheader3 h1{
+    margin-top: 100px;
+}
+
+.event {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* FAQ Page */
+.subheader4 {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.subheader4 h1{
+    margin-top: 100px;
+}
+
+.faq {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
