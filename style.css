@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(64, 66, 72, 0.7)), url(images/kseapic1.jpg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -71,11 +71,13 @@ nav img {
 .textbox h1 {
     font-size: 62px;
     color: #FFDC34;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
 
 .textbox h5 {
     font-size: 20px;
     color: #fff;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.492);
 }
 
 .video {
