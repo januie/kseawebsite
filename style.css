@@ -18,17 +18,17 @@
 
 @keyframes animate {
     0%, 100%{
-        background-image: url(kseapic1.jpg);
+        background-image: url(images/kseapic1.jpg);
 
     }
     25%{
-        background-image: url(kseapic2.jpg);
+        background-image: url(images/kseapic2.jpg);
     }
     50%{
-        background-image: url(kseapic3.jpg);
+        background-image: url(images/kseapic3.jpg);
     }
     75%{
-        background-image:  url(kseapic4.jpg);
+        background-image:  url(images/kseapic4.jpg);
     }
 }
 
