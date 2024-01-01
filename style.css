@@ -11,6 +11,7 @@
     background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic1.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -91,6 +92,10 @@ nav img {
     color: #2E3192;
 }
 
+.video img {
+    width: 500px;
+}
+
 /* About KSEA Page */
 .subheader {
     height: 40vh;
@@ -99,7 +104,9 @@ nav img {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #FFDC34;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
+    
 }
 
 .subheader h1{
@@ -128,7 +135,8 @@ nav img {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #FFDC34;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
 
 .subheader2 h1{
@@ -152,7 +160,8 @@ nav img {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #FFDC34;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
 
 .subheader3 h1{
@@ -176,7 +185,8 @@ nav img {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #FFDC34;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
 
 .subheader4 h1{
