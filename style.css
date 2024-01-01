@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/kseapic1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(64, 66, 72, 0.7)), url(images/kseapic1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -57,4 +57,34 @@ nav img {
 
 .nav-links ul li:hover::after {
     width: 100%;
+}
+
+.textbox {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.textbox h1 {
+    font-size: 62px;
+    color: #FFDC34;
+}
+
+.textbox h5 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.video {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.video h1 {
+    color: #2E3192;
 }
