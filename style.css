@@ -90,6 +90,7 @@ nav img {
 
 .video h1 {
     color: #2E3192;
+    margin-bottom: 30px;
 }
 
 .video img {
@@ -155,13 +156,30 @@ nav img {
     margin-top: 100px;
 }
 
-.boardmem {
-    width: 90%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.board {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.board h1 {
+    margin-bottom: 90px;
+    
+        color: #2E3192;
+    
+}
+
+.board-members {
+    flex-basis: 31%; 
+    border-radius: 10px;
+    margin-bottom: 5%;
     text-align: left;
+} 
+
+.board-members img {
+    width: 20%;
+    border-radius: 10px;
 }
 
 /* Event Page */
@@ -186,7 +204,11 @@ nav img {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
+}
+
+.event h2 {
+    color: #2E3192;
 }
 
 /* FAQ Page */
@@ -211,5 +233,9 @@ nav img {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
+}
+
+.faq h1 {
+    color: #2E3192;
 }
