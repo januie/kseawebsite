@@ -135,9 +135,8 @@ nav img {
     text-align: left;
 }
 .aboutksea h5 { /*What Is KSEA?*/
-    font-size: 40px;
-    font-weight : bold;
-    color: #2E3192;
+    font-size: 30px;
+    color: #000000;
     transform: translate(0%, 100%);
     
 }
