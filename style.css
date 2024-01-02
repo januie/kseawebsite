@@ -140,6 +140,12 @@ nav img {
     color: #2E3192;
     margin-top: 60px;
 }
+.aboutksea h6 { /*What Is KSEA?*/
+    font-size: 40px;
+    font-weight : bold;
+    color: #000000;
+    margin-top: 30px;
+}
 
 /* Board Members Page */
 .subheader2 {
