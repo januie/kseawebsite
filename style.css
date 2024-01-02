@@ -134,10 +134,10 @@ nav img {
     transform: translate(-50%, -50%);
     text-align: left;
 }
-
-.aboutksea h5 {
-    font-size: 13px;
-    color: #000000;
+.aboutksea h5 { /*What Is KSEA?*/
+    font-size: 60px;
+    font-weight : bold;
+    color: #2E3192;
 }
 
 /* Board Members Page */
