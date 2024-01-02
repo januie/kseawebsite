@@ -128,7 +128,7 @@ nav img {
 .aboutksea {
     width: 90%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
@@ -158,7 +158,7 @@ nav img {
 .boardmem {
     width: 90%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
@@ -183,7 +183,7 @@ nav img {
 .event {
     width: 90%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
@@ -208,7 +208,7 @@ nav img {
 .faq {
     width: 90%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
