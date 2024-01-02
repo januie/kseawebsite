@@ -149,6 +149,13 @@ nav img {
     text-align: left;
 }
 
+.aboutksea h7 { 
+    font-size: 15px;
+    color: #000000;
+    transform: translate(0%, 70%);
+    text-align: left;
+}
+
 
 /* Board Members Page */
 .subheader2 {
