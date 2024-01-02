@@ -145,7 +145,7 @@ nav img {
 .aboutksea h6 { 
     font-size: 25px;
     color: #000000;
-    transform: translate(-50%, 150%);
+    transform: translate(50%, 150%);
     text-align: left;
 }
 
