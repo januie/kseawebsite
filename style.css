@@ -141,12 +141,7 @@ nav img {
     transform: translate(0%, 100%);
     
 }
-.aboutksea h6 { 
-    font-size: 35px;
-    color: #000000;
-    transform: translate(0%, 150%);
-    
-}
+
 .K{
     font-weight : bold;
     color: #2E3192;
@@ -163,6 +158,13 @@ nav img {
     font-weight : bold;
     color: #2E3192;
 }
+.aboutksea h6 { 
+    font-size: 35px;
+    color: #000000;
+    transform: translate(0%, 150%);
+    
+}
+
 
 /* Board Members Page */
 .subheader2 {
