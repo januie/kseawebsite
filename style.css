@@ -137,21 +137,11 @@ nav img {
 .aboutksea h5 { /*What Is KSEA?*/
     font-size: 40px;
     font-weight : bold;
-    width: 90%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #2E3192;
 }
 .aboutksea h6 { /*What Is KSEA?*/
     font-size: 35px;
     font-weight : bold;
-    width: 90%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #000000;
 }
 
