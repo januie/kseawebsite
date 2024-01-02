@@ -145,10 +145,23 @@ nav img {
     font-size: 35px;
     color: #000000;
     transform: translate(0%, 150%);
+    
 }
-span.ksea_text{
-    color:#2E3192;
-    font-weight: bold;
+.K{
+    font-weight : bold;
+    color: #2E3192;
+}
+.S{
+    font-weight : bold;
+    color: #2E3192;
+}
+.E{
+    font-weight : bold;
+    color: #2E3192;
+}
+.A{
+    font-weight : bold;
+    color: #2E3192;
 }
 
 /* Board Members Page */
