@@ -129,42 +129,225 @@ nav img {
 .aboutksea {
     width: 90%;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 160%;
+    left: 55%;
     transform: translate(-50%, -50%);
     text-align: left;
 }
-.aboutksea h5 { /*What Is KSEA?*/
+.aboutksea h2 { /*What Is KSEA?*/
+    position: fixed;
     font-size: 30px;
     font-weight : bold;
     color: #000000;
-    transform: translate(0%, 200%);
-    
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
+    position: absolute;
 }
 
-.aboutksea h6 { 
+.aboutksea h3 { 
     font-size: 25px;
     color: #000000;
-    transform: translate(0%, 70%);
+    text-align: left;
+    margin-top: 150px;
+}
+
+.aboutksea p { 
+    font-size: 15px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.kseaicon {
+    text-align: center;
+}
+
+.kseaicon img{
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.aboutksea hr{
+    border-top: 1px solid #2E3192;
+    margin: 30px auto;
+    width: 300px;
+    margin-top: 100px;
+    transform : translateY(50%)
+  }
+
+.ucdksea {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    text-align: left;
+}
+.ucdksea h2{ /*what is ucd ksea?*/
+    font-size: 35px;
+    font-weight : bold;
+    color: #000000;
+    margin-top: 500px;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
+}
+
+
+.ucdksea p{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 100px;
+    text-align : left;
+}
+
+.ucdksea h3{/*UCD KSEA OPPORTUNITIES*/
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.opportunities {
+    margin-top: 30px;
+}
+
+.Networking{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-100%, 210%);
+    text-align: left;
+}
+.Networking img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+.Networking h1{
+    font-size: 25px;
+    transform: translate(35%, -380%);
+}
+
+.Networking p{
+    font-size: 20px;
+    transform: translate(35%, -400%);}
+
+.Scholarships {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-5%, 210%);
     text-align: left;
 }
 
-.aboutksea h7 { 
-    font-size: 15px;
-    color: #000000;
-    transform: translate(0%, 500%);
+.Scholarships img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
 }
 
-.footer {
-    width: 100%;
+.Scholarships h1{
+    font-size: 25px;
+    transform: translate(35%, -380%);}
+
+.Scholarships p{
+    font-size: 20px;
+    transform: translate(35%, -400%);
+}
+
+.Professional {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-100%, 238%);
+    text-align: left;
+}
+
+.Professional img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+.Professional h1{
+    font-size: 25px;
+    transform: translate(35%, -210%);}
+
+.Professional p{
+    font-size: 20px;
+    transform: translate(35%, -300%);
+}
+
+.Leadership {
+    width: 50%;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-7%, 245%);
+    text-align: left;
+}
+
+.Leadership img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+.Leadership h1{
+    font-size: 25px;
+    transform: translate(35%, -230%);}
+
+.Leadership p{
+    font-size: 20px;
+    transform: translate(35%, -310%);
+}
+
+.point {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 410%);
+    text-align: left;
+}
+.point h4{
+    font-size: 40px;
     text-align: center;
-    padding: 30px 0;
+    margin-top: 70px;
 }
 
-.footer p {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 30;
+.point p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.point h5{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.getpoint{
+    width: 90%;
+    position: absolute;
+    top: 160%;
+    left: 55%;
+    transform: translate(-50%, 35%);
+    text-align: left;
+}
+.getpoint img{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: auto;
+}
+.getpoint p{
+    font-size: 20px;
+    color: #000000;
+    transform: translate(15%, -120%);
+    line-height: 103px;
 }
 
 
