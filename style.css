@@ -300,7 +300,7 @@ nav img {
     display: inline-block;
     width: 30%;
     height: auto;
-    margin-top: 20px;
+    transform: translate(-100%, 238%);
 }
 
 .Professional h1{
