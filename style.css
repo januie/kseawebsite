@@ -159,14 +159,13 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-50%, -200%);
+    transform: translate(-50%, -100%);
     text-align: left;
 }
 .ksea_text p { 
     font-size: 25px;
     text-indent : -50px;
     color: #000000;
-    margin-top: 170px;
     text-align: left;
 }
 
