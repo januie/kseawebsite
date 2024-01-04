@@ -492,6 +492,7 @@ nav img {
 }
 
 .instagram p{
+    font-style: italic;
     display: inline-block;
     width: 10%;
     height: auto;
@@ -519,6 +520,7 @@ nav img {
 }
 
 .linktree p{
+    font-style: italic;
     display: inline-block;
     width: 10%;
     height: auto;
