@@ -238,7 +238,7 @@ nav img {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-100%, 170%);
+    transform: translate(-100%, 200%);
     text-align: left;
     background-color: aqua;
 }
