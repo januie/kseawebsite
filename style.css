@@ -333,11 +333,11 @@ nav img {
 
 .Leadership h1{
     font-size: 25px;
-    transform: translate(35%, -230%);}
+    transform: translate(40%, -230%);}
 
 .Leadership p{
     font-size: 20px;
-    transform: translate(-0%, 118%);
+    transform: translate(40%, 118%);
     text-align: left;
     line-height: 30px;
 }
