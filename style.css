@@ -325,6 +325,7 @@ nav img {
 
 .Leadership img{
     display: inline-block;
+    transform: translate(5%, 25%);
     width: 30%;
     height: auto;
 }
@@ -335,7 +336,7 @@ nav img {
 
 .Leadership p{
     font-size: 20px;
-    transform: translate(35%, -310%);
+    transform: translate(-0%, 218%);
     text-align: left;
     line-height: 30px;
 }
