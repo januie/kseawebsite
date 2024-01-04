@@ -240,6 +240,7 @@ nav img {
     left: 50%;
     transform: translate(-100%, 210%);
     text-align: left;
+    background-color: aqua;
 }
 .Networking img{
     display: inline-block;
