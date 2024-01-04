@@ -179,7 +179,11 @@ nav img {
 
 
 .kseaicon {
-    text-align: right;
+    width: 90%;
+    top: 160%;
+    left: 55%;
+    transform: translate(-60%, -200%);
+    text-align: left;
 }
 
 .kseaicon img{
