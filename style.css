@@ -309,7 +309,7 @@ nav img {
 
 .Professional p{
     font-size: 20px;
-    transform: translate(35%, -218%);
+    transform: translate(35%, -230%);
     text-align: left;
     line-height: 30px;
 }
@@ -319,7 +319,7 @@ nav img {
     position: absolute;
     top: 37%;
     left: 50%;
-    transform: translate(-0%, 245%);
+    transform: translate(-0%, 218%);
     text-align: left;
 }
 
