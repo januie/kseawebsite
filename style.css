@@ -526,3 +526,14 @@ nav img {
     height: auto;
     transform: translate(0%, -50%);
 }
+
+/* Join KSEA Page */
+
+.form {
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: left;
+}
