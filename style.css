@@ -350,22 +350,6 @@ nav img {
     line-height: 103px;
 }
 
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(3100px);
-}
-
-.footer p {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 30;
-}
-
-
 
 /* Board Members Page */
 .subheader2 {
@@ -459,10 +443,84 @@ nav img {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translate(-50%, 0%);
+    text-align: left;
 }
-
 .faq h1 {
     color: #2E3192;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
+}
+.faq h2 {
+    color: #2E3192;
+    margin-top: 50px;
+}
+.faq p {
+    line-height: 27px;
+    margin-top: 10px;
+    color: #000000
+}
+.faq h3{
+    margin-top: 50px;
+    color: #000000
+}
+
+.more {
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-35%, 60%);
+    text-align: left;
+}
+
+.more p{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+    margin-top: 150px;
+}
+.instagram {
+    width: 50%;
+    position: absolute;
+    transform: translate(-110%, 200%);
+    top: 60%;
+    left: 50%;
+
+}
+
+.instagram p{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+    transform: translate(0%, -50%);
+}
+
+.instagram img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+
+.linktree{
+    width: 45%;
+    position: absolute;
+    transform: translate(0%, 200%);
+    top: 60%;
+    left: 50%;
+}
+
+.linktree img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+
+.linktree p{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+    transform: translate(0%, -50%);
 }
