@@ -560,6 +560,6 @@ nav img {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, 15%);
+    transform: translate(-50%, 10%);
     text-align: center;
 }
