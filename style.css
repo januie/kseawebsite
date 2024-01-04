@@ -263,6 +263,7 @@ nav img {
     left: 50%;
     transform: translate(-5%, 210%);
     text-align: left;
+    background-color: bisque;
 }
 
 .Scholarships img{
