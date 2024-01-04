@@ -143,8 +143,16 @@ nav img {
     position: absolute;
 }
 
-.aboutksea p { 
+.aboutksea p1 { 
     font-size: 25px;
+    text-indent : -50px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.aboutksea p2 { 
+    font-size: 25px;
+    text-indent : 50px;
     color: #000000;
     margin-top: 100px;
 }
