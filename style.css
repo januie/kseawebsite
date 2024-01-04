@@ -240,7 +240,6 @@ nav img {
     left: 50%;
     transform: translate(-100%, 200%);
     text-align: left;
-    background-color: aqua;
 }
 .Networking img{
     display: inline-block;
@@ -266,7 +265,6 @@ nav img {
     left: 50%;
     transform: translate(-0%, 200%);
     text-align: left;
-    background-color: bisque;
 }
 
 .Scholarships img{
@@ -293,7 +291,6 @@ nav img {
     left: 50%;
     transform: translate(-100%, 218%);
     text-align: left;
-    background-color: aquamarine;
 }
 
 .Professional img{
@@ -321,7 +318,6 @@ nav img {
     left: 50%;
     transform: translate(-0%, 218%);
     text-align: left;
-    background-color: #FFDC34;
 }
 
 .Leadership img{
