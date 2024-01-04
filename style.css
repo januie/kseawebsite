@@ -282,6 +282,7 @@ nav img {
 .Scholarships p{
     font-size: 20px;
     transform: translate(35%, -330%);
+    text-align: left;
 }
 
 .Professional {
