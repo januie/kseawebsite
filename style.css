@@ -254,7 +254,9 @@ nav img {
 
 .Networking p{
     font-size: 20px;
-    transform: translate(13%, -205%);}
+    transform: translate(13%, -205%);
+    text-align: left;
+}
 
 .Scholarships {
     width: 50%;
