@@ -132,7 +132,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     text-align: left;
 }
 
@@ -141,7 +141,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-60%, -1500%);
+    transform: translate(-60%, -1700%);
     text-align: left;
 }
 
