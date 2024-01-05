@@ -174,7 +174,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-130%, 0%);
+    transform: translate(-130%, -100%);
 }
 
 .ksea_text p { 
