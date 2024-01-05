@@ -185,9 +185,8 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-50%, 5%);
+    transform: translate(-50%, 10%);
     text-align: center;
-    background-color: #FFDC34;
 }
 
 .defksea p{
