@@ -183,11 +183,12 @@ nav img {
 }
 
 .defksea {
-    font-size: 25px;
-    text-indent : -50px;
-    color: #000000;
+    width: 45%;
+    position: absolute;
+    top: 160%;
+    left: 55%;
+    transform: translate(-50%, 250%);
     text-align: left;
-    line-height: 50px;
     background-color: #FFDC34;
 }
 
