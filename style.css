@@ -504,28 +504,6 @@ nav img {
     color: #000000
 }
 
-.join {
-    width: 90%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-}
-
-.join h2 {
-    color: #2E3192;
-    margin-top: 50px;
-    text-align: left;
-}
-
-.join p {
-    line-height: 27px;
-    margin-top: 10px;
-    text-align: left;
-    color: #000000;
-}
-
 
 .faq h3{
     margin-top: 50px;
