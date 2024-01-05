@@ -151,14 +151,14 @@ nav img {
 }
 
 
-.aboutksea a {
+.aboutksea h2 a {
     font-size: 45px;
     text-decoration: none;
     font-weight : bold;
     color: #2E3192;
 } 
 
-.aboutksea a:hover {
+.aboutksea h2 a:hover {
     color: #FFDC34;
     text-decoration: none;
  }
