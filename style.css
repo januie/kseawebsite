@@ -539,7 +539,7 @@ nav img {
 .instagram {
     width: 50%;
     position: absolute;
-    /*transform: translate(-110%, 100%);
+    /*transform: translate(0%, 0%);
     top: 60%;
     left: 50%;*/
 
@@ -550,7 +550,7 @@ nav img {
     display: inline-block;
     width: 10%;
     height: auto;
-    transform: translate(0%, -50%);
+    transform: translate(0%, -80%);
 }
 
 .instagram img{
