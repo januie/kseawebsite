@@ -224,6 +224,7 @@ nav img {
     display: inline-block;
     width: 5%;
     height: auto;
+    transform: translate(-50%, 130%);
 }
 .ucdksea h2{ /*ucd ksea*/
     font-weight : bold;
