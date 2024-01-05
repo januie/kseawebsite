@@ -157,20 +157,23 @@ nav img {
     color: #2E3192;
 }
 
+.kseatitle a:hover {
+    color: #FFDC34;
+    text-decoration: none;
+}
+
 .ksea_text {
     width: 45%;
     position: absolute;
     top: 160%;
     left: 55%;
     transform: translate(-130%, -35%);
-    text-align: center;
 }
 
 .ksea_text p { 
     font-size: 35px;
     text-indent : -50px;
     color: #000000;
-    text-align: center;
     line-height: 50px;
 }
 
