@@ -209,7 +209,7 @@ nav img {
 
 .ucdksea {
     width: 100%;
-    height: 50%;
+    height: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -219,15 +219,7 @@ nav img {
 .ucdksea_title_background{
     width: 90%;
 }
-.ucdksea {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 180%);
-    background-color: #FFDC34;
-}
+
 .ucdksea h2{ /*ucd ksea*/
     font-weight : bold;
     color:#fff; 
@@ -245,7 +237,6 @@ nav img {
     text-align: right;
 
 }
-
 
 .ucdksea h3{/*UCD KSEA OPPORTUNITIES*/
     font-size: 40px;
