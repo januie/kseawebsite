@@ -220,6 +220,11 @@ nav img {
     width: 90%;
 }
 
+.ucdksea_title_background img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
 .ucdksea h2{ /*ucd ksea*/
     font-weight : bold;
     color:#fff; 
