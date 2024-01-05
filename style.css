@@ -132,14 +132,14 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-40%, -600%);
+    transform: translate(-45%, -600%);
     text-align: left;
 }
 
 .aboutksea img{
     display: inline-block;
     width: 5%;
-    transform: translate(-50%, -0%);
+    transform: translate(-50%, -30%);
     height: auto;
 }
 
