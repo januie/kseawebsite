@@ -135,6 +135,14 @@ nav img {
     transform: translate(-50%, -50%);
 }
 
+.kseatitle {
+    width: 90%;
+    position: absolute;
+    top: 160%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
 .kseatitle img {
     display: inline-block;
     width: 7%;
