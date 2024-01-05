@@ -221,6 +221,7 @@ nav img {
     color:#fff; 
     font-size: 60px;
     margin-top: 30px;
+    text-align: left;
 }
 
 
@@ -228,14 +229,14 @@ nav img {
     font-size: 30px;
     color: #000000;
     margin-top: 100px;
-    text-align : center;
-    line-height: 50px
+    line-height: 50px;
+    text-align: left;
 }
 
 .ucdksea h3{/*UCD KSEA OPPORTUNITIES*/
     font-size: 40px;
-    text-align: center;
     margin-top: 100px;
+    text-align : center;
 }
 
 .opportunities {
