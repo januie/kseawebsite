@@ -152,8 +152,7 @@ nav img {
 }
 
 .kseatitle img:hover {
-    -webkit-filter: sepia(100%);
-    filter: sepia(100%);
+    color:#FFDC34
 }
 
 .kseatitle a {
