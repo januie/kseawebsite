@@ -149,7 +149,7 @@ nav img {
     font-weight : bold;
     color: #000000;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
-    transform: translate(-0%, -50%);
+    transform: translate(30%, -100%);
 }
 
 .ksea_text {
