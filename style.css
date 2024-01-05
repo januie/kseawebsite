@@ -153,6 +153,7 @@ nav img {
 
 .aboutksea h2 a {
     font-size: 45px;
+    display: inline-block;
     text-decoration: none;
     font-weight : bold;
     color: #2E3192;
