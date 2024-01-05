@@ -202,9 +202,9 @@ nav img {
     text-align: left;
 }
 .ucdksea h2{ /*what is ucd ksea?*/
-    font-size: 45px;
     font-weight : bold;
-    color: #000000;
+    color:#2E3192; 
+    font-size: 60px;
     margin-top: 500px;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
