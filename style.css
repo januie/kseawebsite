@@ -226,7 +226,7 @@ nav img {
     height: auto;
     transform: translate(0%, 130%);
 }
-.ucdksea h2{ /*ucd ksea*/
+.title_ucdksea h2{ /*ucd ksea*/
     font-weight : bold;
     color:#fff; 
     font-size: 60px;
@@ -234,7 +234,7 @@ nav img {
     text-align: right;}
 
 
-.ucdksea p{
+.title_ucdksea p{
     font-size: 30px;
     color: #000000;
     margin-top: 50px;
