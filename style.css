@@ -132,7 +132,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-80%, -600%);
+    transform: translate(-50%, -600%);
     text-align: left;
 }
 
@@ -149,7 +149,7 @@ nav img {
     font-weight : bold;
     color: #2E3192;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
-    transform: translate(30%, -100%);
+    transform: translate(0%, -100%);
 }
 
 .ksea_text {
