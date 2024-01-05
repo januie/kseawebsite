@@ -169,7 +169,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-150%, 100%);
+    transform: translate(-150%, 0%);
     text-align: left;
     background-color: bisque;
 }
