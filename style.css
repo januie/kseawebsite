@@ -150,20 +150,19 @@ nav img {
     filter: sepia(100%);
 }
 
-
 .aboutksea h2 a {
     font-size: 45px;
-    display: inline-block;
     text-decoration: none;
     font-weight: bold;
     color: #2E3192;
-    transition: color 0.3s ease;
-} 
+}
 
 .aboutksea h2 a:hover {
     color: #FFDC34;
     text-decoration: none;
 }
+
+
 
 
 .ksea_text {
