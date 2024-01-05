@@ -233,15 +233,14 @@ nav img {
     color:#fff; 
     font-size: 60px;
     margin-top: 30px;
-    text-align: right;
-    background-color: bisque;
-}
+    text-align: right;}
 
 
 .ucdksea p{
     font-size: 30px;
     color: #000000;
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: right;
 }
 
