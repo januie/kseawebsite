@@ -135,6 +135,12 @@ nav img {
     transform: translate(-50%, -10%);
     text-align: left;
 }
+.about img{
+    display: inline-block;
+    width: 5%;
+    height: auto;
+    margin-top: 150px;
+}
 
 .title_KSEA{ 
     width: 90%; /*What Is KSEA?*/
@@ -175,22 +181,6 @@ nav img {
     color: #000000;
     text-align: left;
     margin-top: 120px;
-}
-
-
-.kseaicon {
-    width: 90%;
-    top: 160%;
-    left: 55%;
-    transform: translate(30%, -80%);
-    text-align: center;
-}
-
-.kseaicon img{
-    display: inline-block;
-    width: 35%;
-    height: auto;
-    margin-top: 150px;
 }
 
 .ucdksea {
