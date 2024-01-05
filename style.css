@@ -135,20 +135,12 @@ nav img {
     transform: translate(-50%, -1250%);
     text-align: left;
 }
+
 .aboutksea img{
     display: inline-block;
     width: 5%;
     transform: translate(-50%, -0%);
     height: auto;
-}
-
-.title_KSEA{ 
-    width: 90%; /*What Is KSEA?*/
-    position: absolute;
-    top: 160%;
-    left: 55%;
-    transform: translate(-60%, -1700%);
-    text-align: left;
 }
 
 .aboutksea h2 {
@@ -157,7 +149,7 @@ nav img {
     font-weight : bold;
     color: #000000;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
-    position: absolute;
+    transform: translate(-50%, -0%);
 }
 
 .ksea_text {
