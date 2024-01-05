@@ -498,7 +498,8 @@ nav img {
 }
 
 .faq p {
-    line-height: 40px;
+    line-height: 27px;
+    font-size: 35px;
     margin-top: 10px;
     text-align: left;
     color: #000000
