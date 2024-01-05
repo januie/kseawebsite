@@ -149,7 +149,6 @@ nav img {
     height: auto;
     -webkit-filter: sepia(0);
     filter: sepia(0);
-    transition: .3s ease-in-out;
 }
 
 .kseatitle img:hover {
