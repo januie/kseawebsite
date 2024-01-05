@@ -147,7 +147,6 @@ nav img {
 .kseatitle img {
     display: inline-block;
     width: 7%;
-    transform: translate(-120%, 135%);
     height: auto;
     -webkit-filter: sepia(0);
     filter: sepia(0);
