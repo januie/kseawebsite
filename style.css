@@ -562,7 +562,7 @@ nav img {
 .linktree{
     width: 45%;
     position: absolute;
-    transform: translate(0%, 200%);
+    transform: translate(0%, 950%%);
     top: 60%;
     left: 50%;
 }
@@ -576,7 +576,7 @@ nav img {
 .linktree p{
     font-style: italic;
     display: inline-block;
-    width: 10%;
+    width: 40%;
     height: auto;
     transform: translate(0%, -50%);
 }
