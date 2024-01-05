@@ -130,6 +130,7 @@ nav img {
 .aboutksea {
     width: 90%;
     position: absolute;
+    text-decoration: none;
     top: 160%;
     left: 55%;
     transform: translate(-50%, -600%);
@@ -147,9 +148,9 @@ nav img {
     font-size: 45px;
     font-weight : bold;
     color: #2E3192;
-    text-decoration: none;
     transform: translate(5%, -100%);
 } 
+
 .abouksea:hover {
     color: #FFDC34
  }
