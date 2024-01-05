@@ -214,10 +214,11 @@ nav img {
     left: 50%;
     transform: translate(-50%, 20%);
     text-align: left;
+    background-color: #FFDC34;
 }
-.ucdksea h2{ /*what is ucd ksea?*/
+.ucdksea h2{ /*ucd ksea?*/
     font-weight : bold;
-    color:#FFDC34; 
+    color:#fff; 
     font-size: 60px;
     margin-top: 500px;
 }
