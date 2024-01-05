@@ -509,22 +509,22 @@ nav img {
     color: #000000
 }
 
-.more {
+/*.more {
     width: 90%;
     position: absolute;
     top: 60%;
     left: 50%;
-    /*transform: translate(-35%, 60%);*/
+    transform: translate(-35%, 60%);
     text-align: left;
     background-color: aqua;
-}
+}*/
 
-.more p{
+/*.more p{
     display: inline-block;
     width: 10%;
     height: auto;
     margin-top: 150px;
-}
+}*/
 
 .instagram {
     width: 50%;
