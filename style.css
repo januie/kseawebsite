@@ -494,11 +494,13 @@ nav img {
 .faq h2 {
     color: #2E3192;
     margin-top: 50px;
+    text-align: left;
 }
 
 .faq p {
     line-height: 27px;
     margin-top: 10px;
+    text-align: left;
     background-color: bisque;
     color: #000000
 }
@@ -508,23 +510,6 @@ nav img {
     background-color: aquamarine;
     color: #000000
 }
-
-/*.more {
-    width: 90%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-35%, 60%);
-    text-align: left;
-    background-color: aqua;
-}*/
-
-/*.more p{
-    display: inline-block;
-    width: 10%;
-    height: auto;
-    margin-top: 150px;
-}*/
 
 .instagram {
     width: 50%;
