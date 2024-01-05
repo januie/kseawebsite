@@ -150,6 +150,10 @@ nav img {
     filter: sepia(100%);
 }
 
+.aboutksea .kseatitle a {
+    text-decoration: none;
+}
+
 .aboutksea h2 a {
     font-size: 45px;
     text-decoration: none;
@@ -159,12 +163,9 @@ nav img {
 }
 
 .aboutksea h2 a:hover {
-    color: #FFDC34 !important;
-    text-decoration: none !important;
+    color: #FFDC34;
+    text-decoration: none;
 }
-
-
-
 
 
 .ksea_text {
