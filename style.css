@@ -504,6 +504,21 @@ nav img {
     color: #000000
 }
 
+.join {
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-62.5%, 95%);
+    text-align: left;
+}
+
+
+.more h3{
+    transform: translate(-62.5%, 95%);
+    color: #000000
+}
+
 .instagram {
     width: 50%;
     position: absolute;
