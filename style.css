@@ -147,8 +147,6 @@ nav img {
     display: inline-block;
     width: 7%;
     height: auto;
-    -webkit-filter: sepia(0);
-    filter: sepia(0);
 }
 
 .kseatitle img:hover {
