@@ -550,7 +550,7 @@ nav img {
     display: inline-block;
     width: 40%;
     height: auto;
-    transform: translate(0%, 0%);
+    transform: translate(0%, -10%);
 }
 
 .instagram img{
