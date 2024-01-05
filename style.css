@@ -135,7 +135,7 @@ nav img {
     transform: translate(-45%, -600%);
 }
 
-.aboutksea img {
+.kseatitle img {
     display: inline-block;
     width: 7%;
     transform: translate(-120%, 135%);
@@ -145,19 +145,19 @@ nav img {
     transition: .3s ease-in-out;
 }
 
-.aboutksea img:hover {
+.kseatitle img:hover {
     -webkit-filter: sepia(100%);
     filter: sepia(100%);
 }
 
-.aboutksea a {
+.kseatitle a {
     font-size: 45px;
     text-decoration: none;
     font-weight: bold;
     color: #2E3192;
 }
 
-.aboutksea a:hover {
+.kseatitle a:hover {
     color: #FFDC34;
 }
 
