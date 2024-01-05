@@ -213,7 +213,7 @@ nav img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 135%);
+    transform: translate(-50%, 120%);
     background-color: #FFDC34;
 }
 .ucdksea_title_background{
@@ -222,15 +222,23 @@ nav img {
 
 .title_ucdksea img{
     display: inline-block;
-    width: 20%;
+    width: 40%;
     height: auto;
-    transform: translate(0%, 130%);
+    transform: translate(0%, 225%);
+}
+
+.title_ucdksea{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
 }
 .title_ucdksea h2{ /*ucd ksea*/
     font-weight : bold;
     color:#fff; 
     font-size: 60px;
-    margin-top: 30px;
     text-align: right;}
 
 
