@@ -212,7 +212,7 @@ nav img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 0%);
     text-align: left;
 }
 .ucdksea h2{ /*what is ucd ksea?*/
@@ -220,7 +220,6 @@ nav img {
     color:#FFDC34; 
     font-size: 60px;
     margin-top: 500px;
-    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
 
 
