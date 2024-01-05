@@ -208,10 +208,8 @@ nav img {
 }
 
 .ucdksea {
-    width: 90%;
+    width: 100%;
     position: absolute;
-    top: 20%;
-    left: 50%;
     transform: translate(-50%, 20%);
     text-align: left;
     background-color: #FFDC34;
