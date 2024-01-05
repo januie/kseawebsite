@@ -155,14 +155,15 @@ nav img {
     font-size: 45px;
     display: inline-block;
     text-decoration: none;
-    font-weight : bold;
+    font-weight: bold;
     color: #2E3192;
 } 
 
 .aboutksea h2 a:hover {
     color: #FFDC34;
     text-decoration: none;
- }
+}
+
 
 .ksea_text {
     width: 45%;
