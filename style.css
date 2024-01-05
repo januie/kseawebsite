@@ -172,7 +172,17 @@ nav img {
     transform: translate(-50%, -0%);
     text-align: left;
 }
+
 .ksea_text p { 
+    font-size: 35px;
+    text-indent : -50px;
+    color: #000000;
+    text-align: left;
+    line-height: 50px;
+    background-color: bisque;
+}
+
+.defksea p{
     font-size: 25px;
     text-indent : -50px;
     color: #000000;
