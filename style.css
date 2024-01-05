@@ -479,6 +479,7 @@ nav img {
     position: absolute;
     top: 60%;
     left: 50%;
+    background-color: #FFDC34;
     transform: translate(-50%, 0%);
     text-align: left;
 }
@@ -494,6 +495,7 @@ nav img {
 .faq h2 {
     color: #2E3192;
     margin-top: 50px;
+    background-color: aqua;
     text-align: left;
 }
 
@@ -501,19 +503,43 @@ nav img {
     line-height: 27px;
     margin-top: 10px;
     text-align: left;
+    background-color: bisque;
     color: #000000
+}
+
+.join {
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.join h2 {
+    color: #2E3192;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.join p {
+    line-height: 27px;
+    margin-top: 10px;
+    text-align: left;
+    color: #000000;
 }
 
 
 .faq h3{
     margin-top: 50px;
+    background-color: aquamarine;
     color: #000000
 }
 
 .instagram {
     width: 50%;
     position: absolute;
-    transform: translate(-80%, 940%);
+    transform: translate(-80%, 90%);
     top: 60%;
     left: 50%;
 
@@ -524,7 +550,7 @@ nav img {
     display: inline-block;
     width: 40%;
     height: auto;
-    transform: translate(0%, -60%);
+    transform: translate(0%, -50%);
 }
 
 .instagram img{
