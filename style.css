@@ -141,6 +141,7 @@ nav img {
     top: 160%;
     left: 55%;
     transform: translate(-50%, -890%);
+    background-color: aqua;
 }
 
 .kseatitle img {
