@@ -544,7 +544,7 @@ nav img {
 .linktree{
     width: 45%;
     position: absolute;
-    transform: translate(10%, 1200%);
+    transform: translate(10%, 1000%);
     top: 60%;
     left: 50%;
 }
