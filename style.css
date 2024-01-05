@@ -539,9 +539,9 @@ nav img {
 .instagram {
     width: 50%;
     position: absolute;
-    transform: translate(-110%, 100%);
+    /*transform: translate(-110%, 100%);
     top: 60%;
-    left: 50%;
+    left: 50%;*/
 
 }
 
