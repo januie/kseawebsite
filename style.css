@@ -509,10 +509,9 @@ nav img {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-62.5%, 95%);
+    transform: translate(-62.5%, 195%);
     text-align: left;
 }
-
 
 .more h3{
     transform: translate(0%, 95%);
