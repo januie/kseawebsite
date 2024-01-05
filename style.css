@@ -165,12 +165,13 @@ nav img {
  }
 
 .ksea_text {
-    width: 90%;
+    width: 45%;
     position: absolute;
     top: 160%;
     left: 55%;
     transform: translate(-50%, 250%);
     text-align: left;
+    background-color: bisque;
 }
 
 .ksea_text p { 
