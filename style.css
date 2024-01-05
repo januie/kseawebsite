@@ -515,7 +515,7 @@ nav img {
 
 
 .faq h3{
-    margin-top: 250px;
+    transform: translate(-62.5%, 95%);
     color: #000000
 }
 
