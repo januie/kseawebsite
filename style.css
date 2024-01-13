@@ -5,6 +5,7 @@
 
 }
 
+/* Home Page */
 .header {
     min-height: 100vh;
     width: 100%;
@@ -633,4 +634,25 @@ nav img {
     left: 50%;
     transform: translate(-50%, 7%);
     text-align: center;
+}
+
+/* Media */
+@media (max-width: 400px) {
+    .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .textbox h1 {
+    font-size: 50px;
+    }
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
 }
