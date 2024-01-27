@@ -135,7 +135,7 @@ nav img {
 .subheader {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/kseapic2.jpg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/kseapic2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -161,7 +161,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-65%, -890%);
+    transform: translate(-65%, -870%);
 }
 
 .kseatitle img {
@@ -241,12 +241,6 @@ nav img {
     width: 90%;
 }
 
-.title_ucdksea img{
-    display: inline-block;
-    width: 40%;
-    height: auto;
-    transform: translate(0%, 225%);
-}
 
 .title_ucdksea{
     width: 90%;
@@ -254,8 +248,16 @@ nav img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-40%, -80%);
 }
+
+.title_ucdksea img{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    transform: translate(-30%, 250%);
+}
+
 .title_ucdksea h2{ /*ucd ksea*/
     font-weight : bold;
     color:#fff; 
@@ -274,9 +276,9 @@ nav img {
 }
 
 .ucdksea h3{/*UCD KSEA OPPORTUNITIES*/
-    font-size: 40px;
+    font-size: 25px;
     margin-top: 100px;
-    text-align : center;
+    text-align : left;
 }
 
 .opportunities {
@@ -284,17 +286,18 @@ nav img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 60%);
-    text-align: left;
+    transform: translate(-90%, 0%);
+
 }
+
 
 .Networking{
     width: 50%;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-100%, 200%);
     text-align: left;
+    transform: translate(-0%, 660%);
 }
 .Networking img{
     display: inline-block;
@@ -303,12 +306,10 @@ nav img {
 }
 .Networking h1{
     font-size: 25px;
-    transform: translate(35%, -380%);
 }
 
 .Networking p{
     font-size: 20px;
-    transform: translate(35%, -330%);
     line-height: 30px;
     text-align: left;
 }
@@ -318,8 +319,8 @@ nav img {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-0%, 200%);
     text-align: left;
+    transform: translate(90%, 660%);
 }
 
 .Scholarships img{
@@ -330,12 +331,11 @@ nav img {
 
 .Scholarships h1{
     font-size: 25px;
-    transform: translate(35%, -380%);}
+}
 
 .Scholarships p{
     font-size: 20px;
     line-height: 30px;
-    transform: translate(35%, -330%);
     text-align: left;
 }
 
@@ -344,24 +344,22 @@ nav img {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-100%, 218%);
     text-align: left;
+    transform: translate(0%, 610%);
 }
 
 .Professional img{
     display: inline-block;
     width: 30%;
     height: auto;
-    transform: translate(5%, 25%);
 }
 
 .Professional h1{
     font-size: 25px;
-    transform: translate(35%, -210%);}
+}
 
 .Professional p{
     font-size: 20px;
-    transform: translate(35%, -230%);
     text-align: left;
     line-height: 30px;
 }
@@ -371,24 +369,22 @@ nav img {
     position: absolute;
     top: 37%;
     left: 50%;
-    transform: translate(-0%, 218%);
     text-align: left;
+    transform: translate(90%, 610%);
 }
 
 .Leadership img{
     display: inline-block;
-    transform: translate(5%, 25%);
     width: 30%;
     height: auto;
 }
 
 .Leadership h1{
     font-size: 25px;
-    transform: translate(35%, -210%);}
+}
 
 .Leadership p{
     font-size: 20px;
-    transform: translate(35%, -230%);
     text-align: left;
     line-height: 30px;
 }
@@ -398,7 +394,7 @@ nav img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 410%);
+    transform: translate(-50%, 700%);
     text-align: left;
 }
 .point h4{
@@ -424,7 +420,7 @@ nav img {
     position: absolute;
     top: 160%;
     left: 55%;
-    transform: translate(-50%,45%);
+    transform: translate(-50%,200%);
     text-align: left;
 }
 .getpoint img{
@@ -436,7 +432,7 @@ nav img {
 .getpoint p{
     font-size: 20px;
     color: #000000;
-    transform: translate(15%, -120%);
+    transform: translate(15%, -95%);
     line-height: 103px;
     text-align: left;
 }
