@@ -255,7 +255,7 @@ nav img {
     display: inline-block;
     width: 40%;
     height: auto;
-    transform: translate(-30%, 250%);
+    transform: translate(-30%, 280%);
 }
 
 .title_ucdksea h2{ /*ucd ksea*/
@@ -569,14 +569,14 @@ nav img {
 }
 
 .more h3{
-    transform: translate(0%, 1100%);
+    transform: translate(0%, 700%);
     color: #000000
 }
 
 .instagram {
     width: 50%;
     position: absolute;
-    transform: translate(-80%, 1530%);
+    transform: translate(-80%, 2100%);
     top: 60%;
     left: 50%;
 
@@ -587,7 +587,7 @@ nav img {
     display: inline-block;
     width: 60%;
     height: auto;
-    transform: translate(0%, -60%);
+    transform: translate(0%, -30%);
 }
 
 .instagram img{
@@ -599,7 +599,7 @@ nav img {
 .linktree{
     width: 60%;
     position: absolute;
-    transform: translate(10%, 1480%);
+    transform: translate(10%, 2050%);
     top: 60%;
     left: 50%;
 }
@@ -613,9 +613,9 @@ nav img {
 .linktree p{
     font-style: italic;
     display: inline-block;
-    width: 40%;
+    width: 50%;
     height: auto;
-    transform: translate(0%, -60%);
+    transform: translate(0%, -30%);
 }
 
 /*--------------------------------------------------- Join KSEA Page -------------------------------------------------*/
