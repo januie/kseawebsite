@@ -635,37 +635,10 @@ nav img {
     margin-top: 100px;
 }
 
-.join {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
 
-.join h1 {
-    margin-bottom: 100px;
-    color: #2E3192;
-}
-
-.form {
-    width: 80%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, 7%);
-    text-align: center;
-}
-
-.form iframe {
-    width: 100%;
-    height: 1480px;
-    background-position: center;
-    margin-bottom: 80px;
-}
-          
 /* -------------------------------------------------- Media -------------------------------------------------------*/
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     .header {
         min-height: 100vh;
         width: 100%;
@@ -674,9 +647,17 @@ nav img {
         background-size: cover;
         background-attachment: fixed;
     }
+
     .textbox h1 {
-    font-size: 50px;
+    font-size: 45px;
     }
+
+    .textbox h5 {
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.492);
+    }
+
     .nav-links ul li {
         list-style: none;
         display: inline-block;
