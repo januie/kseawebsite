@@ -5,6 +5,7 @@
 
 }
 
+
 /* -------------------------------------------------------- Home Page ------------------------------------------------------------------*/
 .header {
     min-height: 100vh;
@@ -151,34 +152,27 @@ nav img {
 .aboutksea {
     width: 90%;
     position: absolute;
-    top: 160%;
-    left: 55%;
-    transform: translate(-50%, -50%);
 }
 
-.kseatitle {
+.ksealogo {
     width: 90%;
     position: absolute;
-    top: 160%;
-    left: 55%;
-    transform: translate(-65%, -870%);
 }
 
-.kseatitle img {
-    transform: translate(-0%, 20%);
+.ksealogo img {
     display: inline-block;
-    width: 7%;
+    width: 60px;
     height: auto;
     -webkit-filter: sepia(0);
     filter: sepia(0);
 }
 
-.kseatitle img:hover {
+.ksealogo img:hover {
     -webkit-filter: sepia(100%);
     filter: sepia(100%);
 }
 
-.kseatitle a {
+.ksealogo h1 {
     font-size: 45px;
     text-decoration: none;
     font-weight: bold;
@@ -186,255 +180,8 @@ nav img {
 
 }
 
-.kseatitle a:hover{
+.ksealogo a:hover{
     color:#FFDC34;
-}
-
-.ksea_text {
-    width: 45%;
-    position: absolute;
-    top: 160%;
-    left: 55%;
-    transform: translate(-120%, -130%);
-}
-
-.ksea_text p { 
-    font-size: 35px;
-    text-indent : -50px;
-    color: #000000;
-    line-height: 50px;
-}
-
-.defksea {
-    width: 45%;
-    position: absolute;
-    top: 160%;
-    left: 55%;
-    transform: translate(-20%, -160%);
-    text-align: center;
-}
-
-.defksea p{
-    font-size: 25px;
-    color: #000000;
-    text-align: center;
-    line-height: 50px;
-}
-
-.aboutksea h3 { 
-    font-size: 30px;
-    color: #000000;
-    text-align: left;
-    margin-top: 120px;
-}
-
-.ucdksea {
-    width: 100%;
-    height: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 120%);
-    background-color: #FFDC34;
-}
-.ucdksea_title_background{
-    width: 90%;
-}
-
-
-.title_ucdksea{
-    width: 90%;
-    height: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -80%);
-}
-
-.title_ucdksea img{
-    display: inline-block;
-    width: 40%;
-    height: auto;
-    transform: translate(-30%, 280%);
-}
-
-.title_ucdksea h2{ /*ucd ksea*/
-    font-weight : bold;
-    color:#fff; 
-    font-size: 60px;
-    text-align: right;}
-
-
-.title_ucdksea p{
-    font-size: 30px;
-    color: #000000;
-    margin-top: 50px;
-    line-height: 50px;
-    margin-bottom: 20px;
-    text-align: right;
-
-}
-
-.ucdksea h3{/*UCD KSEA OPPORTUNITIES*/
-    font-size: 25px;
-    margin-top: 100px;
-    text-align : left;
-}
-
-.opportunities {
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-90%, 0%);
-
-}
-
-
-.Networking{
-    width: 50%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    text-align: left;
-    transform: translate(-0%, 660%);
-}
-.Networking img{
-    display: inline-block;
-    width: 30%;
-    height: auto;
-}
-.Networking h1{
-    font-size: 25px;
-}
-
-.Networking p{
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
-}
-
-.Scholarships {
-    width: 50%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    text-align: left;
-    transform: translate(90%, 660%);
-}
-
-.Scholarships img{
-    display: inline-block;
-    width: 30%;
-    height: auto;
-}
-
-.Scholarships h1{
-    font-size: 25px;
-}
-
-.Scholarships p{
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
-}
-
-.Professional {
-    width: 50%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    text-align: left;
-    transform: translate(0%, 610%);
-}
-
-.Professional img{
-    display: inline-block;
-    width: 30%;
-    height: auto;
-}
-
-.Professional h1{
-    font-size: 25px;
-}
-
-.Professional p{
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
-}
-
-.Leadership {
-    width: 50%;
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    text-align: left;
-    transform: translate(90%, 610%);
-}
-
-.Leadership img{
-    display: inline-block;
-    width: 30%;
-    height: auto;
-}
-
-.Leadership h1{
-    font-size: 25px;
-}
-
-.Leadership p{
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
-}
-
-.point {
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 700%);
-    text-align: left;
-}
-.point h4{
-    font-size: 40px;
-    text-align: center;
-    margin-top: 70px;
-}
-
-.point p{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.point h5{
-    font-size: 30px;
-    text-align: left;
-    margin-top: 60px;
-}
-
-.getpoint{
-    width: 90%;
-    position: absolute;
-    top: 160%;
-    left: 55%;
-    transform: translate(-50%,200%);
-    text-align: left;
-}
-.getpoint img{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    height: auto;
-}
-.getpoint p{
-    font-size: 20px;
-    color: #000000;
-    transform: translate(15%, -95%);
-    line-height: 103px;
-    text-align: left;
 }
 
 
@@ -559,63 +306,50 @@ nav img {
     color: #000000
 }
 
-.join {
-    width: 90%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-62.5%, 180%);
-    text-align: left;
-}
-
 .more h3{
-    transform: translate(0%, 700%);
+    margin-top: 200px;
     color: #000000
 }
 
 .instagram {
-    width: 50%;
+    width: 500px;
     position: absolute;
-    transform: translate(-80%, 2100%);
-    top: 60%;
-    left: 50%;
-
+    top: 101%;
 }
 
 .instagram p{
     font-style: italic;
     display: inline-block;
-    width: 60%;
+    width: 400px;
     height: auto;
-    transform: translate(0%, -30%);
 }
 
 .instagram img{
     display: inline-block;
     width: 10%;
+    top: -500%;
     height: auto;
 }
 
 .linktree{
-    width: 60%;
+    width: 500px;
     position: absolute;
-    transform: translate(10%, 2050%);
-    top: 60%;
+    top: 101%;
     left: 50%;
 }
 
 .linktree img{
     display: inline-block;
     width: 7%;
+    top: -500px;
     height: auto;
 }
 
 .linktree p{
     font-style: italic;
     display: inline-block;
-    width: 50%;
+    width: 400px;
     height: auto;
-    transform: translate(0%, -30%);
 }
 
 /*--------------------------------------------------- Join KSEA Page -------------------------------------------------*/
@@ -634,7 +368,8 @@ nav img {
 .subheader5 h1{
     margin-top: 100px;
 }
-          
+
+
 /* -------------------------------------------------- Media -------------------------------------------------------*/
 
 @media (max-width: 700px) {
