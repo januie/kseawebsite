@@ -226,8 +226,8 @@ nav img {
 } 
 
 .board-members img {
-    width: 150px; /* Adjust size of the circle */
-    height: 150px; /* Adjust size of the circle */
+    width: 300px; /* Adjust size of the circle */
+    height: 300px; /* Adjust size of the circle */
     border-radius: 50%; /* Make it a circle */
     overflow: hidden; /* Hide overflow */
     background-size: cover;
@@ -240,7 +240,7 @@ nav img {
 
 .board-members p {
     font-size: 0.8em;
-    color: rgb(30, 0, 255);
+    color: rgb(17, 2, 131);
     margin-bottom: 30px;
 }
 
@@ -266,7 +266,6 @@ nav img {
     width: 80%;
     position: absolute;
     margin: auto;
-    
     text-align: center;
 }
 
