@@ -169,8 +169,8 @@ nav img {
 
 .ksealogo img:hover {
     -webkit-filter: sepia(100%);
-    filter: sepia(100%);
-}
+    filter: sepia(100%);}
+
 
 .ksealogo h1 {
     font-size: 45px;
