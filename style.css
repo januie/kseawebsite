@@ -149,40 +149,67 @@ nav img {
     margin-top: 100px;
 }
 
-.aboutksea {
-    width: 90%;
-    position: absolute;
+.ppt img{
+    height: 100%;
+    width: 100%;
 }
 
-.ksealogo {
-    width: 90%;
-    position: absolute;
+.slide2 {
+    margin-top: -5px;
 }
 
-.ksealogo img {
-    display: inline-block;
-    width: 60px;
+.slide3 {
+    margin-top: -5px;
+}
+
+.slide4 {
+    margin-top: -5px;
+}
+
+.slide5 {
+    margin-top: -5px;
+}
+
+.slide6 {
+    margin-top: -5px;
+}
+
+.social {
+    position: absolute;
     height: auto;
-    -webkit-filter: sepia(0);
-    filter: sepia(0);
+    width: 21%;
+    transform: translate(7%, -155%);
 }
 
 
-.ksealogo img:hover {
-    -webkit-filter: sepia(100%);
-    filter: sepia(100%);}
-
-
-.ksealogo h1 {
-    font-size: 45px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #2E3192;
-
+.academic {
+    position: absolute;
+    height: auto;
+    width: 23%;
+    transform: translate(110%, -155%);
 }
 
-.ksealogo a:hover{
-    color:#FFDC34;
+.national {
+    position: absolute;
+    height: auto;
+    width: 23.5%;
+    transform: translate(215%, -156%);
+}
+
+.join {
+    position: absolute;
+    height: auto;
+    width: 21.5%;
+    transform: translate(359%, -156%);
+}
+
+
+.image {
+    position: absolute; /* Position the image relative to its parent */
+    top: 0; /* Adjust top position as needed */
+    left: 0; /* Adjust left position as needed */
+    width: 100%; /* Ensure image fills the parent container */
+    height: 100%; /* Ensure image fills the parent container */
 }
 
 

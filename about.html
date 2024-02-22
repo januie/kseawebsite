@@ -32,7 +32,44 @@
 
       <h1>About UCD KSEA</h1>
     </section>
+    <section class = ppt>
+      <div class = slide1>
+        <img src="images/about/Slide1.png" /></div>
+      <div class = slide2>
+        <img src="images/about/Slide2.png" /></div>
+      <div class = slide3>
+        <img src="images/about/Slide3.png" /></div>
+      <div class = slide4>
+        <img src="images/about/Slide4.png" /></div>
+      <div class = slide5>
+        <img src="images/about/Slide5.png" /></div>
+      <div class = slide6>
+        <img src="images/about/Slide6.png" /></div>
+
+        <div class = social>
+          <img src="images/about/social.png" onmouseover="this.src = 'images/about/50.png'" onmouseout="this.src='images/about/social.png'">
+        </div>
+        <div class = academic>
+          <img src="images/about/academic.png" onmouseover="this.src = 'images/about/70.png'" onmouseout="this.src='images/about/academic.png'">
+        </div>
+        <div class = national>
+          <img src="images/about/national.png" onmouseover="this.src = 'images/about/100.png'" onmouseout="this.src='images/about/national.png'">
+        </div>
+        <div class="join">
+          <img src="images/about/join.png" onmouseover="this.src = 'images/about/120.png'" onmouseout="this.src='images/about/join.png'">
+      </div>
+      
+
+    </section>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+<script>
+function changeImageSize(imageId, newSrc) {
+    var img = document.getElementById(imageId);
+    img.src = newSrc;
+}
+
+</script>
