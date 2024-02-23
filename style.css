@@ -206,28 +206,30 @@ nav img {
 
 
 .kseaicon{
-    position: absolute;
-    height: 10%;
-    width: auto;
-    transform: translate(40%, -490%);
+    position: relative;
 }
+
 .kseaicon h1{
-    position: absolute;
+    top: 10000000%;
     font-size: 350%;
     font-weight: bold;
     height: 10%;
     width: auto;
-    transform: translate(5%, -2500%);
     color: #2E3192;
     text-shadow: 5px 5px 4px rgb(160, 158, 158);
 }
+
+.kseaicon img{
+    height: 10%;
+    width: 10%;
+    transform: translate(20%, -500%);
+}
+
 .kseaicon h2{
-    position: absolute;
     font-size: 250%;
     font-weight: bold;
     height: 10%;
     width: auto;
-    transform: translate(30%, -900%);
 }
 .kseaicon a{
     text-decoration-line:none;
