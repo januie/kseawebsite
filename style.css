@@ -303,7 +303,7 @@ nav img {
 .subheader3 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2023_fall/study마라톤4.jpg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2023_spring/grad5.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -316,16 +316,47 @@ nav img {
 }
 
 .event {
-    height: 100vh;
     width: 80%;
-    position: absolute;
-    margin: auto;
-    text-align: center;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
 }
 
-.event h2 {
-    color: #2E3192;
+.event img {
+    width: 100%;
+    cursor: pointer;
 }
+
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.full-img img {
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
 
 /*---------------------------------------------------------- FAQ Page ------------------------------------------------------------------*/
 

@@ -33,10 +33,26 @@
       <h1>Events</h1>
     </section>
 
-    <section class="event">
-      <h2>2023-2024</h2>
-    </section>
+    <div class="full-img" id="fullImgBox">
+      <img src="images/home/ksea2022.jpeg" id="fullImg" />
+      <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="event">
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+    </div>
 
-    <script src="script.js"></script>
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+
+      function openFullImg() {
+        fullImgBox.style.display = "flex";
+      }
+    </script>
   </body>
 </html>
