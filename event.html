@@ -38,23 +38,28 @@
       <span onclick="closeFullImg()">X</span>
     </div>
     <div class="event">
-      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
-      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg(this.src)" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg(this.src)" />
       <img
         src="images/event/2024_winter/ksea4cut.jpg"
-        onclick="openFullImg()"
+        onclick="openFullImg(this.src)"
       />
-      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
-      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
-      <img src="images/home/ksea2022.jpeg" onclick="openFullImg()" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg(this.src)" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg(this.src)" />
+      <img src="images/home/ksea2022.jpeg" onclick="openFullImg(this.src)" />
     </div>
 
     <script>
       var fullImgBox = document.getElementById("fullImgBox");
       var fullImg = document.getElementById("fullImg");
 
-      function openFullImg() {
+      function openFullImg(pic) {
         fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
       }
     </script>
   </body>
