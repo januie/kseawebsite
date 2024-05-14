@@ -149,15 +149,88 @@ nav img {
 .subheader h1{
     margin-top: 100px;
 }
+.page1 {
+    position: absolute;
 
-.ppt img{
-    height: 100%;
-    width: 100%;
+}
+.page1 h1{
+position: absolute;
+width: 1351px;
+height: 115px;
+left: 27px;
+top: 43px;
+
+font-family: 'Akshar';
+font-style: normal;
+font-weight: 584;
+font-size: 48px;
+line-height: 53px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ksea {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #2E3192;
+}
+.page1 h2{
+    position: absolute;
+    width: 477px;
+    height: 464px;
+    left: 76px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+    }
+
+.page1 h3 {
+    position: absolute;
+    width: 1085px;
+    height: 43px;
+    left: 56px;
+    top: 746px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+    font-variation-settings: 'slnt' -10;
 }
 
-.slide2 {
-    margin-top: -5px;
+.img_kseaicon {
+    position: absolute;
+    width: 649px;
+    height: 653px;
+    left: 729px;
+    top: 132px;
+
+    background: url(kseaicon.png);
 }
+
+.img_line{
+    position: absolute;
+    width: 196px;
+    height: 0px;
+    left: 48px;
+    top: 197px;
+    
+    border: 1px solid #000000;
+    }
 
 .slide3 {
     margin-top: -5px;
