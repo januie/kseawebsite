@@ -154,107 +154,193 @@ nav img {
 
 }
 .page1 h1{
-position: absolute;
-width: 1351px;
-height: 115px;
-left: 27px;
-top: 43px;
+/* “We help Korean-American scientists and engineers develop their full career potential” - National KSEA */
+    position: absolute;
+    width: 1114px;
+    height: 85px;
+    left: 186px;
+    top: 138px;
 
-font-family: 'Akshar';
-font-style: normal;
-font-weight: 584;
-font-size: 48px;
-line-height: 53px;
+    font-family: 'Akshar';
+    font-style: normal;
+    font-weight: 584;
+    font-size: 48px;
+    line-height: 53px;
 
-color: #000000;
+    color: #000000;
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kseastandsfor {
+    /* Korean - American Scientists and Engineers Association */
+    font-size: 55px; 
+    font-weight: 500; 
+    text-align: left; 
+    color: #000;
 }
 .ksea {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 116px;
-
-    color: #2E3192;
-}
-.page1 h2{
-    position: absolute;
-    width: 477px;
-    height: 464px;
-    left: 76px;
-    top: 220px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
-
-    color: #000000;
+    /* Korean - American Scientists and Engineers Association */
+    font-size: 96px; 
+    font-weight: 700; 
+    text-align: left; 
+    color: #2e3192;
     }
 
-.page1 h3 {
-    position: absolute;
-    width: 1085px;
-    height: 43px;
-    left: 56px;
-    top: 746px;
-
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-
-    color: #000000;
-    font-variation-settings: 'slnt' -10;
+.anacademic {
+    /* “An academic community comprising Korean students & professionals from across the country” */
+    width: 1085px; 
+    height: 55px; 
+    position: absolute; 
+    left: 233px; 
+    top: 807px; 
+    font-size: 36px; 
+    font-weight: 500; 
+    text-align: left; 
+    color: #000
 }
 
-.img_kseaicon {
-    position: absolute;
-    width: 649px;
-    height: 653px;
-    left: 729px;
-    top: 132px;
-
-    background: url(kseaicon.png);
+.kseaicon-1{
+    /* kseaicon 1 */
+    width: 487px; 
+    height: 487px; 
+    position: absolute; 
+    left: 766px; 
+    top: 276px; 
+    object-fit: cover;
 }
 
 .img_line{
+        /* Line 1 */
+
     position: absolute;
     width: 196px;
     height: 0px;
-    left: 48px;
-    top: 197px;
-    
+    left: 186px;
+    top: 277px;
+
     border: 1px solid #000000;
     }
-
-.slide3 {
-    margin-top: -5px;
-}
-
-.slide4 {
-    margin-top: -5px;
-}
-
-.slide5 {
-    margin-top: -5px;
-}
-
-.slide6 {
-    margin-top: -5px;
-}
-
-.social {
+.page2 h1{
+        /* UC DAVIS KSEA */
     position: absolute;
-    height: auto;
-    width: 21%;
-    transform: translate(7%, -155%);
+    width: 784px;
+    height: 162px;
+    left: 640px;
+    top: 125px;
+
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 117px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+.UCDAVIS {
+    /* UC DAVIS KSEA */
+    position: absolute;
+    width: 784px;
+    height: 162px;
+    left: 640px;
+    top: 125px;
+
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 117px;
+
+    color: #FFDC34;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.page2 h2{
+    /* “We are UC Davis Young Generation (YG) group within the KSEA chapter in Sacramento” */
+
+    position: absolute;
+    width: 740px;
+    height: 133px;
+    left: 608px;
+    top: 363px;
+
+    font-family: 'Timmana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 59px;
+
+    color: #FFDC34;
+}
+.page2 h3{
+    /* Currently, there are over 20 YG groups and morethan 70 chapters operating within the state.UC Davis KSEA strives to collaborate with other YG groups to foster an active and vibrant KSEA community. */
+    position: absolute;
+    width: 691px;
+    height: 132px;
+    left: 588px;
+    top: 579px;
+    font-family: 'Andada Pro';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: right;
+    hanging-punctuation: first last;
+    list-style-position: outside;
+    padding: 0;
+    color: #FFFFFF;
 }
 
+.page2 h4{
+    /* We Foster international cooperation especially between the U.S. and Korea */
+    position: absolute;
+    width: 696px;
+    height: 64px;
+    left: 625px;
+    top: 821px;
+    font-family: 'Tauri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    backdrop-filter: blur(2px);
+}
+
+.ucdavisimage {
+    /* image 5 */
+    position: absolute;
+    width: 871px;
+    height: 1025px;
+    left: 0px;
+    top: 0px;
+
+    background: url(image.png);
+}
+
+.blue {
+    /* image 4 */
+    position: absolute;
+    width: 653px;
+    height: 1024px;
+    left: 219px;
+    top: 1px;
+
+    background: url(image.png);
+}
+
+.line1{
+    /* Line 1 */
+    position: absolute;
+    width: 196px;
+    height: 0px;
+    left: 871px;
+    top: 776px;
+
+    border: 1px solid #FFFFFF;
+}
 
 .academic {
     position: absolute;
