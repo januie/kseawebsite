@@ -1,0 +1,171 @@
+.subheader {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/home/ucdavis1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #FFDC34;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
+    
+}
+
+.subheader h1{
+    margin-top: 100px;
+}
+/*page 1*/
+.page_1 {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.we_help {
+    width: auto;
+    height: auto;
+    top: 50%; 
+    left: 50%; 
+    font-weight: 584 !important;
+    font-family: 'Akshar',sans-serif !important;
+    font-style: normal !important;
+    font-size: 3.3vw !important;
+    line-height: 1.1 !important;
+    color: #000000 !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.KseaStandsFor {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 500 !important;
+    font-size: 3.3vw !important;
+    line-height: 67px !important;
+    color: #000000 !important;
+}
+
+.ksea {
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 6.67vw !important;
+    line-height: 1.1 !important;
+    color: #2E3192 !important;
+}
+
+.an_academic {
+    font-style: italic !important;
+    font-weight: 500 !important;
+    font-size: 2.5vw !important;
+    line-height: 44px !important;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: #000000 !important;
+    font-variation-settings: 'slnt' -10 !important;
+    margin-bottom: 10%;
+}
+
+.kseaiconwithwhite {
+    position: absolute;
+    top: 20%; 
+    left: 45.3%;
+    width: 33.8%;
+    height: auto;
+    background: url('kseaicon.png') no-repeat center center;
+    background-size: contain;
+}
+.kseaiconwithwhite img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/*page 2*/
+.page_2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
+    background: #3954A6;
+    box-sizing: border-box;
+    top: 100vh;
+    z-index: -1;
+}
+.ucdavispng {
+    position: absolute;
+    width: 60.49%; /* 871px / 1440px * 100 */
+    height: 100.10%; /* 1025px / 1024px * 100 */
+    z-index: -1;
+}
+.ucdavispng img{
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto;
+}
+.uc-davis-ksea {
+    font-family: 'Merriweather', serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    width: 54.44%; /* 740px / 1440px * 100 */
+    height: 15.82%; /* 133px / 1024px * 100 */
+    margin-left: 44.44%; /* 608px / 1440px * 100 */
+    margin-top: 12.21%;
+    font-size: 4.86vw !important; 
+    line-height: 8.13vw !important; 
+    color: #FFDC34 !important;
+    text-shadow:
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
+        0 0.28vw 0.28vw rgba(0, 0, 0, 0.25);
+}
+
+.we-are-ucdavis {
+    position: absolute;
+    width: 51.39%; /* 740px / 1440px * 100 */
+    height: 12.99%; /* 133px / 1024px * 100 */
+    font-family: 'Timmana', sans-serif;
+    font-style: normal;
+    font-weight: 400 !important;;
+    font-size: 2.5vw !important;; /* 36px / 1440px * 100 */
+    line-height: 4.1vw !important;; /* 59px / 1440px * 100 */
+    color: #FFDC34 !important;;
+}
+
+.yg-groups {
+    font-family: 'Andada Pro', serif !important;;
+    font-style: italic !important;;
+    font-weight: 500 !important;;
+    font-size: 1.94vw !important;; /* 28px / 1440px * 100 */
+    line-height: 2.29vw !important;; /* 33px / 1440px * 100 */
+    text-align: right;
+    color: #FFFFFF !important;;
+}
+
+.international-cooperation {
+    position: absolute;
+    width: 48.33%; /* 696px / 1440px * 100 */
+    height: 6.25%; /* 64px / 1024px * 100 */
+    left: 43.40%; /* 625px / 1440px * 100 */
+    top: 80.18%; /* 821px / 1024px * 100 */
+    font-family: 'Tauri', sans-serif !important;;
+    font-style: normal !important;;
+    font-weight: 400 !important;;
+    font-size: 1.94vw !important;; /* 28px / 1440px * 100 */
+    line-height: 2.43vw !important;; /* 35px / 1440px * 100 */
+    text-align: center !important;;
+    color: #FFFFFF !important;;
+    backdrop-filter: blur(2px); /* Note: backdrop-filter has minimal browser support */
+}
+
+.line-1 {
+    position: absolute;
+    width: 13.61%; /* 196px / 1440px * 100 */
+    height: 0;
+    left: 60.49%; /* 871px / 1440px * 100 */
+    top: 75.78%; /* 776px / 1024px * 100 */
+    border: 1px solid #FFFFFF;
+}
