@@ -271,6 +271,7 @@ nav img {
 .page_3 {
     position: relative;
     width: 100%;
+    min-height: 150vh;
     background: #3954A6;
     padding: 2% 10%;
     box-sizing: border-box;
@@ -278,8 +279,6 @@ nav img {
 }
 
 .OurKseaOpportunities h1 {
-    display: flex;
-    justify-content: flex-start;
     position: relative;
     margin-top: 10%;
     font-family: 'Inter', sans-serif;
@@ -292,10 +291,7 @@ nav img {
     margin-bottom: 2%;
 }
 
-/* UCD KSEA aim */
 .UCDKSEAAim p {
-    display: flex;
-    justify-content: flex-start;
     position: relative;
     margin-top: 10%;
     font-family: 'Andada Pro', serif;
@@ -306,95 +302,79 @@ nav img {
     color: #FFFFFF;
     margin-bottom: 2%;
 }
-.Networking{
-    display: flex;
-    justify-content: flex-start;
+
+.Networking {
     position: relative;
     margin-top: 5%;
 }
-.NationalMeetings{
-    display: flex;
-    justify-content: flex-start;
+
+.NationalMeetings {
     position: relative;
     margin-top: -50%;
 }
-.WithMembers{
-    display: flex;
-    justify-content: flex-start;
+
+.WithMembers {
     position: relative;
     margin-top: 3%;
 }
 
 .Networking img {
-    display: flex;
-    justify-content: flex-start;
     position: relative;
-    margin-top: 10%;
-    margin-left: -30%;
-    z-index: -1;
+    margin-top: 3%;
     width: 48.25vw; /* 378px / 1440px * 100 */
-    height: auto; /* 289px / 1024px * 100 */
+    height: auto;
+    z-index: -1;
 }
 
-.WeRecognize{
-    display: flex;
-    justify-content: flex-start;
+.WeRecognize {
     position: relative;
-    left: 70%;
     text-align: right;
-    top: -50%;
+    margin-top: -5%;
 }
 
 .WeDo_1 {
-    display: flex;
-    justify-content: flex-start;
+    position: relative;
     margin-top: 5%;
     margin-left: 50%;
 }
 
 .MentorMenteeNight {
-    display: flex;
-    justify-content: flex-start;
     position: relative;
-    margin-top: 4%;
+    margin-top: 0%;
     margin-left: 55%;
 }
-.KseaAlumni{
-    display: flex;
-    justify-content: flex-start;
+
+.KseaAlumni {
     position: relative;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-left: 65%;
 }
 
-.UCBKSEA{
-    display: flex;
-    justify-content: flex-start;
+.UCBKSEA {
     position: relative;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-left: 65%;
 }
 
-.scholarships{
-    display: flex;
-    justify-content: flex-start;
+.scholarships {
     position: relative;
     margin-left: 70%;
     margin-top: 5%;
 }
 
-.UndergraduateScholarship{
+.UndergraduateScholarship {
     position: relative;
     margin-right: 8%;
     margin-top: 3%; 
 }
 
-.WeFosterInternational{
+.WeFosterInternational {
+    position: relative;
     text-align: right;
     margin-top: 4%; 
 }
 
-.gradmentormentee img{
+.gradmentormentee img {
     position: relative;
     margin-left: 25%;
     margin-top: 0%;
@@ -403,49 +383,66 @@ nav img {
     height: auto; /* 289px / 1024px * 100 */
 }
 
-.ProfessionalDevelopment{
-    display: flex;
-    justify-content: flex-start;
-    margin-top: -42%;
+.ProfessionalDevelopment {
+    position: relative;
+    margin-top: -39%;
 }
 
-.WeRecognize p,
-.LeadershipOpportunities p,
-.workshops p,
-.ResumeWorkshop p,
-.WeExcel p {
+.LeadershipOpportunities {
     position: relative;
-    font-family: 'Andada Pro', serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    text-shadow: 0px 0.28vw 0.28vw rgba(0, 0, 0, 0.25);
-    margin-bottom: 2%;
+    margin-left: -53%;
+    margin-top: 5%;
+}
+
+.workshops {
+    position: relative;
+    margin-left: -53%;
+    margin-top: 5%;
+}
+
+.resumepng img {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 42.29vw;
+}
+
+.WeDo_2 {
+    position: relative;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+
+.ResumeWorkshop {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 0%;
 }
 
 .Networking h2,
 .scholarships h2,
-.ProfessionalDevelopment h2,
-.Academic h2,
-.Social h2 {
+.ProfessionalDevelopment h2 {
     font-family: 'Tauri', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3.33vw; /* 48px / 1440px * 100 */
-    line-height: 3.86vh; /* 60px / 1024px * 100 */
-    color: #FFFFFF;}
+    line-height: 1.25; /* 60px / 1024px * 100 */
+    color: #FFFFFF;
+}
 
 .NationalMeetings p,
 .WithMembers p,
-.UndergraduateScholarship p {
-    font-size: 1.63vw !important; 
+.UndergraduateScholarship p,
+.LeadershipOpportunities p,
+.workshops p {
+    font-size: 1.63vw !important;
     margin-left: 34% !important;
     color: #FFFFFF !important;
+    line-height: 1.25;
 }
 
-
 .WeDo_1 p,
-.WEDo_2{
+.WeDo_2 p {
     font-family: 'Andada Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -456,12 +453,13 @@ nav img {
 
 .MentorMenteeNight p,
 .KseaAlumni p,
-.UCBKSEA p{
+.UCBKSEA p,
+.ResumeWorkshop p {
     font-family: 'Andada Pro', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.67vw; /* 24px / 1440px * 100 */
-    line-height: 2.73vh; /* 28px / 1024px * 100 */
+    line-height: 2.25; /* 28px / 1024px * 100 */
     color: #FFFFFF;
 }
 
