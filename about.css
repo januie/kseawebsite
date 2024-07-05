@@ -271,7 +271,7 @@ nav img {
 .page_3 {
     position: relative;
     width: 100%;
-    min-height: 150vh;
+    height:auto;
     background: #3954A6;
     padding: 2% 10%;
     box-sizing: border-box;
@@ -400,23 +400,35 @@ nav img {
     margin-top: 5%;
 }
 
-.resumepng img {
+.resumepng {
     position: relative;
-    margin-left: 5%;
-    margin-top: 0%;
+    margin-left: -5%;
+    margin-top: 5%;
     width: 42.29vw;
+}
+
+.resumepng img {
+    width:100%;
 }
 
 .WeDo_2 {
     position: relative;
     margin-left: 55%;
-    margin-top: -25%;
+    margin-top: -35%;
 }
 
 .ResumeWorkshop {
     position: relative;
-    margin-left: 50%;
-    margin-top: 0%;
+    margin-left: 60%;
+    margin-top: 2%;
+    line-height: 1.3;
+
+}
+
+.WeExcel{
+    margin-left:50%;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 .Networking h2,
@@ -472,4 +484,158 @@ nav img {
     font-size: 1.67vw;
     line-height: 2.83vw;
     color: #84A3FF;
+}
+
+/*-------page 4-------*/
+
+.page_4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10% 0; 
+}
+
+.KSEAPOINT{
+    position: relative;
+    width: 45.73vw;
+    height: auto;
+    margin-left:10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.00vw;
+    line-height: 6.04vw;
+}
+.KSEAPOINT img{
+    width:100%
+}
+
+.accumulatepoints{
+    position: relative;
+    margin-top: 5%;
+    font-family: 'Telex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.23vw;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: 0px 0.208vw 0.208vw rgba(0, 0, 0, 0.25);
+}
+
+.JoinSocial{
+    position:relative;
+    margin-left:7%;
+    margin-top:7%;
+    width: 20.49vw;
+    height: auto;
+}
+  
+.hoverimg_1:hover {
+    content: url('images/about/50.png');
+}
+
+.JoinAcademic{
+    position:relative;
+    margin-left:29%;
+    margin-top:-21.2%;
+    width: 20.49vw;
+    height: auto;
+}
+
+.hoverimg_2:hover {
+    width: 110%;
+    margin-left:-7%;
+    content: url('images/about/70.png');
+}
+
+.JoinEvent{
+    position:relative;
+    margin-left:51%;
+    margin-top:-21.2%;
+    width: 20.49vw;
+    height: auto;
+}
+.hoverimg_3:hover {
+    width: 113%;
+    margin-left:-7%;
+    content: url('images/about/100.png');
+}
+
+.JoinKSEA{
+    position:relative;
+    margin-left:73%;
+    margin-top:-21.4%;
+    width: 20.49vw;
+    height: auto;
+}
+.hoverimg_4:hover {
+    width: 100%;
+    content: url('images/about/120.png');
+}
+
+.hoverimg_1,
+.hoverimg_2,
+.hoverimg_3,
+.hoverimg_4 {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/*-------page 5-------*/
+
+.page_5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10% 0; 
+}
+
+.withus{
+    position: relative;
+    margin-left:10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 8vw;
+    line-height: 6.04vw;
+    color: #2E3192;
+    text-shadow: 0 0.2083vw 0.2083vw rgba(0, 0, 0, 0.25), 0 0.2083vw 0.2083vw rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+
+}
+
+.kseaiconpng{
+    position:relative;
+    margin-top:10%;
+    margin-left:22%;
+    width:11.54vw;
+    height:auto;
+}
+
+.kseaiconpng img{
+    width:100%;
+}
+
+.nationalksea{
+    position:relative;
+    margin-top: -7%;
+    margin-left: 36%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 5.5vw;
+    line-height: 3.02vw;
+    color: #2E3192;
+}
+
+.kseas{
+    position:relative;
+    width:80vw;
+    height:auto;
+    margin-top:10%;
+    margin-left:10%;
+}
+.kseas img{
+    width:100%;
 }
