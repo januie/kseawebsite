@@ -139,13 +139,15 @@ nav img {
     font-size: 6.67vw;
     line-height: 1.1;
     color: #2E3192;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+
 }
 
 .kseaiconwithwhite {
     position: absolute;
     top: calc(80vh); 
     left: 52%;
-    top: 30%;
+    top: 28%;
     width: 38.8%;
     height: auto;
     background: url('kseaicon.png') no-repeat center center;
@@ -201,13 +203,6 @@ nav img {
     font-size: 3.4vw;
     line-height: 1.5;
     color: #FFDC34;
-    text-shadow: 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
-                 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
-                 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
-                 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
-                 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
-                 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25),
-                 0 0.28vw 0.28vw rgba(0, 0, 0, 0.25);
     text-align: center;
 }
 
@@ -224,6 +219,8 @@ nav img {
     line-height: 4.1vw;
     color: #FFDC34;
     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .Currently {
