@@ -266,6 +266,7 @@ nav img {
 }
 
 .subheader4 h1{
+    white-space: normal; 
     margin-top: 100px;
 }
 
@@ -321,15 +322,16 @@ nav img {
 }
 
 .instagram {
-    width: 500px;
+    width: auto;
     position: absolute;
     top: 101%;
+    left:5%;
 }
 
 .instagram p{
     font-style: italic;
     display: inline-block;
-    width: 400px;
+    width: auto;
     height: auto;
 }
 
@@ -341,10 +343,10 @@ nav img {
 }
 
 .linktree{
-    width: 500px;
+    width: auto;
     position: absolute;
-    top: 101%;
-    left: 50%;
+    top: 101.5%;
+    left: 55%;
 }
 
 .linktree img{
@@ -357,7 +359,7 @@ nav img {
 .linktree p{
     font-style: italic;
     display: inline-block;
-    width: 400px;
+    width: auto;
     height: auto;
 }
 
