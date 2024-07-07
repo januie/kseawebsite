@@ -642,7 +642,7 @@ a:hover {
 }
 
 .hover-yellow {
-    transition: filter 0.3s;
+    transition: filter 0.0s;
 }
 
 .hover-yellow:hover {
