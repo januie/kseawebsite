@@ -377,6 +377,38 @@ nav img {
     margin-top: 100px;
 }
 
+.join_ksea{
+    position:relative;
+    padding: 10% 10%; 
+}
+
+.join_ksea img{
+    width:100%;
+}
+
+.join_ksea h1{
+    position:relative;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+.join_ksea p{
+    white-space: normal; 
+    width:100%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.click{
+    position:relative;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+
 
 /* -------------------------------------------------- Media -------------------------------------------------------*/
 

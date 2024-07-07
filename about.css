@@ -629,6 +629,26 @@ nav img {
     color: #2E3192;
 }
 
+a {
+    text-decoration: none;
+    color: #2E3192;
+}
+
+a:hover {
+    color: #FFDC34;
+  }
+  fb-icon:hover{
+    color:#FFDC34;
+}
+
+.hover-yellow {
+    transition: filter 0.3s;
+}
+
+.hover-yellow:hover {
+    filter:  sepia(100%) saturate(500%);
+}
+
 .kseas{
     position:relative;
     width:80vw;
