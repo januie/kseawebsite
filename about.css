@@ -207,6 +207,8 @@ nav img {
 
 .WeareUCDavis {
     position: absolute;
+    box-sizing: border-box;
+    overflow-wrap : break-word; 
     top: 28%;
     left: 45%;
     width: 51.39%;
@@ -222,8 +224,13 @@ nav img {
 
 }
 
+.WeareUCDavis p{
+    overflow-wrap : break-word; 
+}
+
 .Currently {
     position: absolute;
+    white-space: normal; 
     width: 51.39%;
     left: 45%;
     top: 48%;
@@ -513,7 +520,7 @@ nav img {
 .accumulatepoints{
     position: relative;
     margin-top: 5%;
-    font-family: 'Telex';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3.23vw;
