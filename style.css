@@ -270,7 +270,7 @@ nav img {
     margin-top: 100px;
 }
 
-.faq {
+.title {
     width: 90%;
     position: absolute;
     top: 60%;
@@ -279,41 +279,92 @@ nav img {
     text-align: left;
 }
 
-.faq h1 {
+.title h1 {
     color: #2E3192;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
-
-.qna{
-    width: 100%;
-}
-
-.qna h2 {
-    color: #2E3192;
-    margin-top: 50px;
-    text-align: left;
-    white-space: normal; 
-
-}
-
-.qna p {
-    white-space: normal; 
-    margin-top: 25px;
-    line-height: 27px;
+.EventParticipation{
+    margin-top: 5%;
     font-size: 20px;
+    color:#595959;
+}
+.faq_1 {
+    list-style: none;
+    padding: 0%;
+}
+.faq_1 > li {
+    padding: box;
+    box-sizing: border-box;
+    padding-top: 0;
+}
+
+.faq_1 > li:nth-child(n+2){
+    border-top: 1px double #B3C1D1;
+    margin-top: 0;
+}
+
+.faq_1 label {
+    display: -webkit-box;
+    color: #000000; 
+    font-size: 15px;
+    height: 50px;
+    margin: 10px 10px -10px 10px; 
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+    text-align: left; 
+    white-space: normal; 
+    padding-top: 10px;
+}
+
+.faq_1 label:hover {
+    background-color: #fff;
+    color: #2E3192;
+  }
+
+.faq_1 label::after {
+    content: "v";
+    display:block;
+    position: sticky;
+    margin-left: auto;
+}
+
+.faq_1 input[type="checkbox"] {
+    display: none;
+}
+
+.faq_1 input:checked + label::after {
+    content: "_";
+    display:block; 
+    position: sticky; 
+    margin-left:auto;
+}
+.faq_1 div {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease, padding 0.2s ease;
+    color: #fff;
+    background-color: #2E3192;
+    font-size: 13px; 
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.faq_1 input:checked + label + div {
+    max-height: 1000px;
+    padding: 10px;
+}
+
+.faq_1 p.spacing01 {
+    white-space: normal; 
+    line-height: 27px;
+    font-size: 13px;
     text-align: left;
-    color: #000000;
+    color: #fff;
 }
 
-.ask {
-    color: #2e3192; 
-    font-size: 25px;
-    word-break:normal;
-
-}
 
 .more h3{
     white-space: normal; 
