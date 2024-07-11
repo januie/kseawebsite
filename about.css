@@ -157,6 +157,17 @@ nav img {
     width: 100%;
 }
 
+.hoverimg_0:hover {
+    width: 100%;
+    content: url('images/kseaicon/kseaicon.png');
+}
+
+.hoverimg_0 {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
 .an_academic {
     font-family: 'Inter', sans-serif;
     font-style: italic;
@@ -675,7 +686,7 @@ nav img {
 
 .kseaiconpng{
     position:relative;
-    margin-top:3%;
+    margin-top:5%;
     margin-left:22%;
     width:11.54vw;
     height:auto;

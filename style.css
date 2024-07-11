@@ -286,27 +286,33 @@ nav img {
     text-align: center;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
 }
-.EventParticipation{
+.EventParticipation,
+.Membership,
+.Benefits,
+.Workshops_KSEA,
+.ScholarshipsFor,
+.KseaHonors{
     margin-top: 5%;
     font-size: 20px;
     color:#595959;
 }
-.faq_1 {
+
+.faq {
     list-style: none;
     padding: 0%;
 }
-.faq_1 > li {
+.faq > li {
     padding: box;
     box-sizing: border-box;
     padding-top: 0;
 }
 
-.faq_1 > li:nth-child(n+2){
-    border-top: 1px double #B3C1D1;
+.faq > li:nth-child(n+2){
+    border-top: 1px dotted #B3C1D1;
     margin-top: 0;
 }
 
-.faq_1 label {
+.faq label {
     display: -webkit-box;
     color: #000000; 
     font-size: 15px;
@@ -319,100 +325,102 @@ nav img {
     padding-top: 10px;
 }
 
-.faq_1 label:hover {
+.faq label:hover {
     background-color: #fff;
     color: #2E3192;
   }
 
-.faq_1 label::after {
+.faq label::after {
     content: "v";
     display:block;
     position: sticky;
     margin-left: auto;
 }
 
-.faq_1 input[type="checkbox"] {
+.faq input[type="checkbox"] {
     display: none;
 }
 
-.faq_1 input:checked + label::after {
+.faq input:checked + label::after {
     content: "_";
     display:block; 
-    position: sticky; 
+    position: sticky;
     margin-left:auto;
 }
-.faq_1 div {
+.faq div {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease, padding 0.2s ease;
-    color: #fff;
-    background-color: #2E3192;
+    color: #2E3192;;
     font-size: 13px; 
     padding: 0 5px;
     box-sizing: border-box;
 }
 
-.faq_1 input:checked + label + div {
+.faq input:checked + label + div {
     max-height: 1000px;
     padding: 10px;
 }
 
-.faq_1 p.spacing01 {
+.faq p.spacing01 {
     white-space: normal; 
     line-height: 27px;
     font-size: 13px;
     text-align: left;
-    color: #fff;
+    margin-left: 5%;
+    width:90%;
+    color: #2E3192;
 }
 
 
 .more h3{
     white-space: normal; 
-    margin-top: 150px;
-    color: #000000
-}
-
-.instagram {
-    width: auto;
-    position: absolute;
-    top: 101%;
-    left:5%;
-}
-
-.instagram p{
+    margin-top: 50px;
+    color: #000000;
     font-style: italic;
-    display: inline-block;
-    width: auto;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+.instagram, .linktree {
+    display: flex;
+    align-items: center;
+    margin: 0 20px; 
+}
+
+.instagram img {
+    width: 50px;
     height: auto;
+    vertical-align: middle;
+    margin-right: 10px; 
 }
-
-.instagram img{
-    display: inline-block;
-    width: 10%;
-    top: -500%;
-    height: auto;
-}
-
-.linktree{
-    width: auto;
-    position: absolute;
-    top: 101.5%;
-    left: 55%;
-}
-
 .linktree img{
-    display: inline-block;
-    width: 7%;
-    top: -500px;
+    width: 40px;
     height: auto;
+    vertical-align: middle;
+    margin-right: 10px; 
 }
 
-.linktree p{
+.instagram a, .linktree a {
     font-style: italic;
-    display: inline-block;
-    width: auto;
-    height: auto;
+    margin: 0;
+    text-decoration: none !important;
+    color: #000000 !important;
 }
+
+.instagram a:hover span,
+.linktree a:hover span{
+    color: #2E3192;
+}
+
 
 /*--------------------------------------------------- Join KSEA Page -------------------------------------------------*/
 
@@ -440,6 +448,13 @@ nav img {
     width:100%;
 }
 
+.click_1{
+    position:relative;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 25px;
+}
+
 .join_ksea h1{
     position:relative;
     margin-bottom: 10%;
@@ -458,7 +473,7 @@ nav img {
     font-size: 18px;
 }
 
-.click{
+.click_2{
     position:relative;
     margin-top: 0%;
     text-align: center;
@@ -466,6 +481,20 @@ nav img {
     margin-bottom: 10%;
 }
 
+.click_1 a,
+.click_2 a {
+    color: #2E3192; 
+}
+
+.click_1 a span,
+.click_2 a span {
+    display: inline; 
+}
+.click_1 a:hover span,
+.click_2 a:hover span{
+    color:#FFDC34;
+    text-decoration: underline;
+}
 
 
 /* -------------------------------------------------- Media -------------------------------------------------------*/
