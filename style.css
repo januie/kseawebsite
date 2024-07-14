@@ -152,7 +152,6 @@ nav img {
 }
 
 .board {
-    height: 100vh;
     width: 80%;
     margin: auto;
     padding-top: 70px;
@@ -166,31 +165,51 @@ nav img {
 }
 
 .board-members {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 900px; /* Adjust based on container width */
-    margin: 0 auto; /* Center the content */
-} 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjust the min width to fit 5 columns */
+    gap: 20px;
+    max-width: 1200px; /* Increase max-width to accommodate 5 columns */
+    margin: 0 auto;
+}
 
-.board-members img {
-    width: 300px; /* Adjust size of the circle */
-    height: 300px; /* Adjust size of the circle */
+.board-member {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.board-member .image-container {
+    width: 180px; /* Adjust this value to change the size of the pictures */
+    padding-top: 100%; /* This maintains the 1:1 aspect ratio */
+    position: relative;
+    overflow: hidden;
     border-radius: 50%; /* Make it a circle */
-    overflow: hidden; /* Hide overflow */
+}
+
+.board-member img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    transform: translate(-50%, -50%);
     background-size: cover;
     background-position: center;
 }
 
-.board-members h3 {
-    margin-top: 20px;
+.board-member h3 {
+    margin-top: 30px; /* Increase this value to increase the margin */
+    color: #2E3192;
 }
 
-.board-members p {
-    font-size: 0.8em;
+.board-member p {
+    font-size: 15px;
     color: rgb(17, 2, 131);
-    margin-bottom: 30px;
 }
+
 
 /* ------------------------------------------------- Event Page -----------------------------------------------------*/
 
