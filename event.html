@@ -33,49 +33,26 @@
       <h1>Events</h1>
     </section>
 
-    <div class="full-img" id="fullImgBox">
-      <img src="images/home/ksea2022.jpeg" id="fullImg" />
-      <span onclick="closeFullImg()">X</span>
-    </div>
     <div class="event">
-      <img
-        src="images/event/2023_spring/grad2.jpeg"
-        onclick="openFullImg(this.src)"
-      />
-      <img
-        src="images/event/2023_spring/grad3.jpeg"
-        onclick="openFullImg(this.src)"
-      />
-      <img
-        src="images/event/2024_winter/ksea4cut.jpg"
-        onclick="openFullImg(this.src)"
-      />
-      <img
-        src="images/event/2023_fall/study마라톤2.jpg"
-        onclick="openFullImg(this.src)"
-      />
-      <img
-        src="images/event/2023_winter/뇌지컬.JPG"
-        onclick="openFullImg(this.src)"
-      />
-      <img
-        src="images/event/2023_spring/grad6.jpeg"
-        onclick="openFullImg(this.src)"
-      />
+      <div class="event-item">
+        <div class="polaroid" onclick="expandImage(this)">
+          <img
+            src="images/event/2023_spring/grad2.jpeg"
+            alt="Graduation Ceremony 2023"
+          />
+          <p>대학원생들과 멘토멘티</p>
+        </div>
+      </div>
+      <div class="event-item">
+        <div class="polaroid" onclick="expandImage(this)">
+          <img
+            src="images/event/2023_fall/studymarathon/study마라톤.jpg"
+            alt="Graduation Event 2023"
+          />
+          <p>스터디 마라톤 2023</p>
+        </div>
+      </div>
+      <!-- Add more images as needed -->
     </div>
-
-    <script>
-      var fullImgBox = document.getElementById("fullImgBox");
-      var fullImg = document.getElementById("fullImg");
-
-      function openFullImg(pic) {
-        fullImgBox.style.display = "flex";
-        fullImg.src = pic;
-      }
-
-      function closeFullImg() {
-        fullImgBox.style.display = "none";
-      }
-    </script>
   </body>
 </html>

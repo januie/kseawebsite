@@ -139,7 +139,7 @@ nav img {
 .subheader2 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2023_fall/study마라톤2.jpg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/home/ksea2022.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -234,42 +234,44 @@ nav img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
-}
-
-.event img {
+  }
+  
+  .event-item {
+    position: relative;
+  }
+  
+  .polaroid {
+    position: relative;
     width: 100%;
     cursor: pointer;
-}
-
-.full-img {
+    overflow: hidden; /* Ensure image does not overflow polaroid frame */
+  }
+  
+  .polaroid img {
+    display: block;
     width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.full-img img {
-    width: 90%;
-    max-width: 700px;
-}
-
-.full-img span {
+    height: auto;
+    border: 10px solid #fff; /* Polaroid border */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Polaroid shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .polaroid p {
     position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-
-
-
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .polaroid:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
 
 /*---------------------------------------------------------- FAQ Page ------------------------------------------------------------------*/
 
