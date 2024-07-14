@@ -202,12 +202,12 @@ nav img {
 
 .board-member h3 {
     margin-top: 30px; /* Increase this value to increase the margin */
-    color: #2E3192;
+    color: #000000;
 }
 
 .board-member p {
     font-size: 15px;
-    color: rgb(17, 2, 131);
+    color: #000000;
 }
 
 
@@ -244,16 +244,18 @@ nav img {
     position: relative;
     width: 100%;
     cursor: pointer;
-    overflow: hidden; /* Ensure image does not overflow polaroid frame */
+    background: #fff; /* White background for the polaroid */
+    padding: 10px 10px 30px; /* Extra padding at the bottom for the polaroid look */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Polaroid shadow */
+    border-radius: 5px; /* Slight rounding of corners */
+    transition: transform 0.3s ease-in-out;
   }
   
   .polaroid img {
     display: block;
     width: 100%;
     height: auto;
-    border: 10px solid #fff; /* Polaroid border */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Polaroid shadow */
-    transition: transform 0.3s ease-in-out;
+    border: none; /* Remove any border on the image itself */
   }
   
   .polaroid p {
@@ -261,17 +263,18 @@ nav img {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
+    background-color: transparent; /* Transparent background for text */
     padding: 5px 10px;
-    border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
     color: #333;
+    margin: 0;
   }
   
-  .polaroid:hover img {
+  .polaroid:hover {
     transform: scale(1.1); /* Zoom effect on hover */
   }
+  
 
 /*---------------------------------------------------------- FAQ Page ------------------------------------------------------------------*/
 
