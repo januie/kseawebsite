@@ -432,7 +432,7 @@ nav img {
 
 .gradmentormentee{
     position: relative;
-    margin-top: 7%;
+    margin-top: 15%;
 }
 
 .gradmentormentee img {
@@ -446,26 +446,26 @@ nav img {
 
 .ProfessionalDevelopment {
     position: relative;
-    margin-top: -37%;
+    margin-top: -39%;
 }
 
 .LeadershipOpportunities {
     position: relative;
     margin-left: 0%;
-    margin-top: 5%;
+    margin-top: 4.7%;
     width: 45%;
 }
 
 .workshops {
     position: relative;
     margin-left: 0%;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .resumepng {
     position: relative;
     margin-left: -5%;
-    margin-top: 1.6%;
+    margin-top: 0%;
     width: 40.0vw;
 }
 
@@ -483,7 +483,6 @@ nav img {
     position: relative;
     margin-left: 57%;
     margin-top: 3%;
-    line-height: 1.6;
 
 }
 
@@ -512,7 +511,7 @@ nav img {
     font-family: 'Inter', sans-serif;
     font-size: 1.63vw !important;
     color: #d5d3d3 !important;
-    line-height: 1.25;
+    line-height: 1.65;
     overflow-wrap: break-word;
     white-space: normal;
 }
@@ -545,7 +544,7 @@ nav img {
     font-style: normal;
     font-weight: 400;
     font-size: 1.67vw; /* 24px / 1440px * 100 */
-    line-height: 2.25; /* 28px / 1024px * 100 */
+    line-height: 2.90; /* 28px / 1024px * 100 */
     color: #dcd9d9;
 
 }
@@ -676,6 +675,7 @@ nav img {
     position: relative;
     width: 100%;
     height: auto;
+    padding: 10% 0; 
 }
 
 .withus{

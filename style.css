@@ -472,6 +472,16 @@ nav img {
     color: #2E3192;
 }
 
+.faq p.spacing01 a span {
+    color: #2E3192;
+    text-decoration: underline;
+}
+
+.faq p.spacing01 a span:hover {
+    color: #f4d22b;
+    text-decoration: underline;
+}
+
 
 .more h3{
     white-space: normal; 
