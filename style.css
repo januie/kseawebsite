@@ -289,7 +289,7 @@ nav img {
 
   .full-img {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 100vh;
@@ -306,13 +306,30 @@ nav img {
     align-items: center;
   }
 
+  .popup-content-wrapper{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
   .popup-content {
+    margin-left: 180px;
     max-width: 800px;
     max-height: 800px;
-    margin-left: 0 auto 0 10%; /* Adjust the margin-left value to move the image to the left */
-    display: block;
   }
   
+  .popup-text {
+    margin-left: 50px;
+    width: 240px;
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+    color:#000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    word-wrap: break-word;
+    white-space: normal;
+  }
 
 .close, .prev, .next {
   position: absolute;
