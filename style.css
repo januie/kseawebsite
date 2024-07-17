@@ -122,27 +122,13 @@ nav img {
     width: 500px;
 }
 
-.footer {
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    padding: 30px 0;
-}
-
-.footer p {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 30;
-}
-
-
 /* ------------------------------------------------------- Board Members Page -------------------------------------------------------------*/
 
 
 .subheader2 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/home/ksea2022.jpeg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2024_spring/레쥬메/임원단체사진.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -317,12 +303,12 @@ nav img {
     display: flex;
     align-items: center;
   }
-  
+
   .popup-content {
     max-width: 800px;
     max-height: 800px;
-    position: center;
-    margin: auto;
+    margin-left: 0 auto 0 10%; /* Adjust the margin-left value to move the image to the left */
+    display: block;
   }
   
 
@@ -340,14 +326,17 @@ nav img {
 .close {
   top: 20px;
   right: 30px;
+  margin-top: 20px;
 }
 
 .prev {
   left: 20px;
+  margin-left: 20px;
 }
 
 .next {
   right: 20px;
+  margin-right: 20px;
 }
   
 
