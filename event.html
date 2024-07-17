@@ -56,7 +56,10 @@
         </div>
         <div class="event-item">
           <div class="polaroid" onclick="expandImage(this)">
-            <img src="images/event/2023_fall/개강총회/" alt="개강총회" />
+            <img
+              src="images/event/2023_fall/개강총회/"
+              alt="개강총회 사진 다시 보내주라 에러떴어"
+            />
             <p>2023 Fall Quarter 개강총회</p>
           </div>
         </div>
@@ -90,10 +93,16 @@
         <!-- Add more images as needed -->
       </div>
     </div>
+
     <div id="imagePopup" class="full-img" style="display: none">
       <span class="close" onclick="closeImage()">&times;</span>
-      <img class="popup-content" id="popupImage" />
+      <div class="carousel">
+        <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+        <img class="popup-content" id="popupImage" />
+        <span class="next" onclick="changeSlide(1)">&#10095;</span>
+      </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

@@ -216,7 +216,7 @@ nav img {
 .subheader3 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2023_spring/대학원생멘토멘티/grad1.jpeg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2023_fall/스터디마라톤/study마라톤3.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -306,20 +306,42 @@ nav img {
     overflow: hidden;
   }
   
-  .popup-content {
-    max-width: 80%;
-    max-height: 80%;
+.carousel {
+    display: flex;
+    align-items: center;
   }
   
-  .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
+  .popup-content {
+    max-width: 800px;
+    max-height: 800px;
+    position: center;
+    margin: auto;
   }
+  
+
+.close, .prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.close {
+  top: 20px;
+  right: 30px;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
   
 
 /*---------------------------------------------------------- FAQ Page ------------------------------------------------------------------*/
