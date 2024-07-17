@@ -1,11 +1,9 @@
-// script.js
 var currentSlideIndex = 0;
 var slides = [];
 var slideTexts = [];
 
 // Function to initialize event listeners and populate slides and slideTexts arrays
 function initializeGallery() {
-  // Select all event items and populate slides and slideTexts arrays
   var eventItems = document.querySelectorAll(".event-item");
   eventItems.forEach(function (item, index) {
     var img = item.querySelector("img");
@@ -14,20 +12,30 @@ function initializeGallery() {
   });
 }
 
-
 // Function to expand image and show popup
 function expandImage(element) {
   var popup = document.getElementById("imagePopup");
   var popupImage = document.getElementById("popupImage");
   var popupText = document.getElementById("popupText");
 
-  // Get the image source and data-text from the clicked element's child img
   var img = element.querySelector("img");
   var imageUrl = img.src;
   var text = img.getAttribute("data-text");
 
-  // Replace $ with <br> to create line breaks in the popup text
-  var formattedText = text.replace(/\$/g, "<br>");
+  // Splitting the data-text into lines based on $
+  var lines = text.split("$");
+
+  // Creating HTML markup for the popup text
+  var formattedText = "";
+  lines.forEach(function(line, index) {
+    if (index === 0) {
+      // Bold and larger font for the first line
+      formattedText += "<p style='font-weight: bold; font-size: 18px;'>" + line + "</p>";
+    } else {
+      // Regular font size for other lines
+      formattedText += "<p>" + line + "</p>";
+    }
+  });
 
   // Display the popup with the corresponding image and text
   popup.style.display = "flex";
@@ -37,7 +45,6 @@ function expandImage(element) {
   // Set the current slide index
   currentSlideIndex = slides.indexOf(imageUrl);
 }
-
 
 // Function to change slide (navigate through images in popup)
 function changeSlide(direction) {
@@ -55,11 +62,22 @@ function changeSlide(direction) {
   var popupText = document.getElementById("popupText");
   popupImage.src = slides[currentSlideIndex];
 
-  // Replace $ with <br> to create line breaks in the popup text
-  var formattedText = slideTexts[currentSlideIndex].replace(/\$/g, "<br>");
+  // Splitting the slide text into lines based on $
+  var lines = slideTexts[currentSlideIndex].split("$");
+
+  // Creating HTML markup for the popup text
+  var formattedText = "";
+  lines.forEach(function(line, index) {
+    if (index === 0) {
+      // Bold and larger font for the first line
+      formattedText += "<p style='font-weight: bold; font-size: 22px;'>" + line + "</p>";
+    } else {
+      // Regular font size for other lines
+      formattedText += "<p>" + line + "</p>";
+    }
+  });
   popupText.innerHTML = formattedText;
 }
-
 
 // Function to close the image popup
 function closeImage() {

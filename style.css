@@ -319,9 +319,10 @@ nav img {
   }
   
   .popup-text {
+    margin-top: 140px;
     margin-left: 50px;
     width: 240px;
-    height: 550px;
+    height: 250px;
     padding: 20px;
     background-color: white;
     color: #000;
@@ -329,6 +330,8 @@ nav img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     word-wrap: break-word;
     white-space: normal;
+
+    
   }
 
 .close, .prev, .next {
