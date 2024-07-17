@@ -323,8 +323,8 @@ nav img {
     width: 240px;
     height: 550px;
     padding: 20px;
-    background-color: red;
-    color:#fff;
+    background-color: white;
+    color: #000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     word-wrap: break-word;

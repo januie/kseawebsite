@@ -13,7 +13,7 @@ function expandImage(element) {
   var text = img.getAttribute("data-text");
 
   // Replace \n with <br> to create line breaks in the popup text
-  var formattedText = text.replace(/\n/g, "<br>");
+  var formattedText = text.replace(/\$/g, "<br>");
 
   // Display the popup with the corresponding image and text
   popup.style.display = "flex";
@@ -26,6 +26,8 @@ function expandImage(element) {
 
   // Set the current slide index
   currentSlideIndex = slides.indexOf(imageUrl);
+  popupText.innerHTML = slideTexts[currentSlide].replace(/\$/g, "<br>");
+
 }
 
 function changeSlide(direction) {
@@ -41,6 +43,8 @@ function changeSlide(direction) {
   // Update the popup image and text
   popupImage.src = slides[currentSlideIndex];
   popupText.innerHTML = slideTexts[currentSlideIndex];
+  popupText.innerHTML = slideTexts[currentSlide].replace(/\$/g, "<br>");
+
 }
 
 function closeImage() {
