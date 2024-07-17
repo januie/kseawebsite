@@ -90,14 +90,14 @@ nav img {
 }
 
 .textbox h1 {
-    font-size: 70px;
+    font-size: 80px;
     color: #ffffff;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
     margin-left: 30px;
 }
 
 .textbox h5 {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.492);
     margin-left: 30px;
@@ -130,7 +130,7 @@ nav img {
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2024_spring/레쥬메/임원단체사진.jpeg);
-    background-position: center;
+    background-position-y: 46%;
     background-size: cover;
 }
 
@@ -210,8 +210,8 @@ nav img {
 .subheader3 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2024_spring/케세네컷/케세네컷1.JPG);
-    background-position-y: 70%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2024_winter/왔다감/IMG_9778.jpeg);
+    background-position-y: 49%;
     background-size: cover;
 }
 
@@ -230,7 +230,7 @@ nav img {
 
 .event h1 {
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.492);
     color: #2E3192;
     font-size: 28px;
@@ -254,6 +254,7 @@ nav img {
     position: relative;
     width: 100%;
     max-width: 400px;
+    max-height: 265px;
     cursor: pointer;
     background: #fff; /* White background for the polaroid */
     padding: 10px 10px 48px; /* Extra padding at the bottom for the polaroid look */
@@ -265,7 +266,7 @@ nav img {
   .polaroid img {
     display: block;
     width: 100%;
-    height: auto;
+    max-height: 270px;
     border: none; /* Remove any border on the image itself */
   }
   
@@ -377,6 +378,7 @@ nav img {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.492);
     margin-bottom: 100px;
+    margin-top: -50px;
 }
 .EventParticipation,
 .Membership,
@@ -683,6 +685,7 @@ footer{
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    margin-top: 50px;
 }
 
 li {
