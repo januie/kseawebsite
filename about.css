@@ -84,7 +84,7 @@ nav img {
     height: 50vh;
     width: 100%;
     font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/home/ucdavis1.jpg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/about/aboutcover.JPG);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -792,7 +792,7 @@ ol, ul {
 footer[_ngcontent-xno-c31] {
     background-color: #3954A6;
     width: 100%;
-    color: #fff;
+    color: #ffffff;
     font-size: .87rem;
 }
 footer{
