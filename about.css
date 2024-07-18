@@ -85,7 +85,7 @@ nav img {
     width: 100%;
     font-family: 'Inter', sans-serif;
     background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/about/aboutcover.JPG);
-    background-position: center;
+    background-position-y: 43%;
     background-size: cover;
     text-align: center;
     color: #FFDC34;
