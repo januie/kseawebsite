@@ -30,10 +30,10 @@ function expandImage(element) {
   lines.forEach(function(line, index) {
     if (index === 0) {
       // Bold and larger font for the first line
-      formattedText += "<p style='font-weight: bold; font-size: 18px;'>" + line + "</p>";
+      formattedText += "<p style='font-weight: bold; font-size: 27px;'>" + line + "</p>";
     } else {
       // Regular font size for other lines
-      formattedText += "<p>" + line + "</p>";
+      formattedText += "<p style = 'font-size: 13px;'>" + line + "</p>";
     }
   });
 
@@ -70,10 +70,10 @@ function changeSlide(direction) {
   lines.forEach(function(line, index) {
     if (index === 0) {
       // Bold and larger font for the first line
-      formattedText += "<p style='font-weight: bold; font-size: 22px;'>" + line + "</p>";
+      formattedText += "<p style='font-weight: bold; font-size: 27px;'>" + line + "</p>";
     } else {
       // Regular font size for other lines
-      formattedText += "<p>" + line + "</p>";
+      formattedText += "<p style = 'font-size: 13px;'>" + line + "</p>";
     }
   });
   popupText.innerHTML = formattedText;
