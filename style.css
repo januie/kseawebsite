@@ -367,7 +367,7 @@ nav img {
 .subheader4 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/faqcover.jpg);
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/faqcover.JPG);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -551,7 +551,7 @@ nav img {
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/join/joinkseacover.JPG);
-    background-position-y: 49%;
+    background-position: center;
     background-size: cover;
     text-align: center;
     color: #FFDC34;
