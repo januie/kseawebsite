@@ -265,7 +265,7 @@ nav img {
   .polaroid {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 352px;
     max-height: 265px;
     cursor: pointer;
     background: #fff; /* White background for the polaroid */
