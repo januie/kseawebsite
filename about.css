@@ -84,8 +84,8 @@ nav img {
     height: 50vh;
     width: 100%;
     font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/about/aboutcover.JPG);
-    background-position-y: 43%;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/about/grad6.jpeg);
+    background-position-y: 75%;
     background-size: cover;
     text-align: center;
     color: #FFDC34;
@@ -749,7 +749,7 @@ a:hover {
 
 /*-------------------------------------footer------------------------------*/
 .wrap-footer-info[_ngcontent-xno-c31] {
-    padding: 4em 3vw;
+    padding: 2em 3vw;
     line-height: 2;
     display: flex;
     justify-content: space-between;
