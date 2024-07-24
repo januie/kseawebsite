@@ -331,10 +331,10 @@ nav img {
   }
   
   .popup-text {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 50px;
     width: 240px;
-    height: 350px;
+    height: auto;
     padding: 20px;
     background-color: white;
     color: #000;

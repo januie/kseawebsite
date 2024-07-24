@@ -80,6 +80,7 @@ function changeSlide(direction) {
 }
 
 // Function to close the image popup
+
 function closeImage() {
   var popup = document.getElementById("imagePopup");
   popup.style.display = "none";
@@ -88,4 +89,137 @@ function closeImage() {
 // Initialize the gallery when the page loads
 document.addEventListener("DOMContentLoaded", function () {
   initializeGallery();
+});
+
+
+//replacement of popup image
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_요맘때/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_spring/요맘때/요맘때poster.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_resume_2024spring/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_spring/레쥬메/resumeworkshopposter_2024.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_dodream_1/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_spring/두드림/dodreamposter_1.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_ksea4cuts_2024sping/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_spring/케세네컷/ksea4cutspicnicdayposter_2024.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_studymarathon_winter2024/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_winter/스터디마라톤/studymarathonwinterposter_2024.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_왔다감2024winter/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_winter/왔다감/왔다감2024winter.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_ksea4cuts_2023winter/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_winter/케세4컷/ksea4cutswinterposer_2024.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+    
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_얼죽삼_2024/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_winter/얼죽삼/얼죽삼poster.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_studymarathon_2023/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2023_fall/스터디마라톤/studymarathon2023fall.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_멘토멘티_2023/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2023_fall/멘토멘티/mentormenteeposter_2023.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_개강총회_2023/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2023_fall/개강총회/개강총회_poster.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_gradschool_2023/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2023_spring/대학원생멘토멘티 /gradschoolmentormentreeposter_2023.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const imgElements = document.querySelectorAll('img[data-text]');
+  
+  imgElements.forEach(function(imgElement) {
+    const dataText = imgElement.getAttribute('data-text');
+    const updatedText = dataText.replace('<img-placeholder_뇌지컬/>', '<br><span style="display: inline-block; width: auto%; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2023_winter/뇌지컬/뇌지컬poster.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>');
+    imgElement.setAttribute('data-text', updatedText);
+  });
 });
