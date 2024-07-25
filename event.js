@@ -11,6 +11,7 @@ function initializeGallery() {
   });
 }
 
+// 포스터 이미지
 function replacePlaceholders(text) {
   const replacements = {
     '<img-placeholder_요맘때/>': '<br><span style="display: inline-block; width: auto; height: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"><img src="images/event/2024_spring/요맘때/요맘때poster.png" alt="Additional Image" style="width: 100%; height: auto;" /></span>',
