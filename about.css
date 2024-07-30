@@ -1,35 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
     white-space: nowrap;
+    overflow-x: clip;
 }
+
 .header {
     min-height: 100vh;
-    font-family: 'Inter', sans-serif;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    animation: animate 20s linear infinite;
+    box-sizing: border-box;
 }
 
-
-
-@keyframes animate {
-    0%, 100% {
-        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)),  url(images/home/ksea2022.jpeg);
-    }
-    10% {
-        background-image:  linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)),url(images/home/ucdavis1.jpg);
-    }
-
-    20% {
-        background-image:  linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)),url(images/home/ucdavis2.jpg);
-    }
-    30% {
-        background-image:  linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)),url(images/home/ucdavis3.jpg);
-    }
-}
 
 nav {
     display: flex;
@@ -50,15 +35,14 @@ nav img {
 }
 
 .nav-links ul li {
-    font-family: 'Inter', sans-serif;
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    margin-top: -15px;
 }
 
 .nav-links ul li a {
-    font-family: 'Inter', sans-serif;
     color: #fff;
     text-decoration: none;
     font-size: 13px;
@@ -125,7 +109,6 @@ nav img {
     height: auto;
     margin-left: 10%;
     margin-top: 15%;
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 3.3vw;
@@ -134,7 +117,6 @@ nav img {
 }
 
 .ksea {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 6.67vw;
@@ -809,4 +791,38 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
     unicode-bidi: isolate;
+}
+
+/* ------------- Media ---------------- */
+
+@media (max-width: 700px) {
+    .header {
+        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/second.jpg'); /* Adjust image for smaller screens */
+        background-position: center;
+        background-size: cover;
+    }
+
+    .textbox h1 {
+        font-size: 40px;
+    }
+
+    .textbox h5 {
+        font-size: 17px;
+    }
+
+    nav {
+        padding: 1% 2%; /* Adjust padding for smaller screens */
+    }
+
+    .nav-links {
+        width: 100%; /* Ensure the nav links container fills the screen */
+        position: relative; /* Adjust positioning as needed */
+    }
+
+    .nav-links ul li {
+        display: block;
+        padding: 10px;
+    }
+
+
 }
