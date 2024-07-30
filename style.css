@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     white-space: nowrap;
+    overflow-x: clip;
 
 }
 
@@ -10,11 +11,12 @@
 /* -------------------------------------------------------- Home Page ------------------------------------------------------------------*/
 .header {
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     animation: animate 20s linear infinite;
+    box-sizing: border-box;
 }
 
 @keyframes animate {
@@ -87,20 +89,21 @@ nav img {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
+    box-sizing: border-box;
 }
 
 .textbox h1 {
     font-size: 80px;
     color: #ffffff;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.492);
-    margin-left: 30px;
+    margin: 0;
 }
 
 .textbox h5 {
     font-size: 30px;
     color: #fff;
     text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.492);
-    margin-left: 30px;
+    margin: 0px;
 }
 /*
 .home {
@@ -633,55 +636,41 @@ nav img {
 
 
 /* -------------------------------------------------- Media -------------------------------------------------------*/
-
-
-nav .fa {
-    display: none;
-}
-
 @media (max-width: 700px) {
-  /*  .header {
-        min-height: 100vh;
-        width: 100%;
-        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2023_fall/study마라톤3.jpg);
+    .header {
+        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/small.jpeg'); /* Adjust image for smaller screens */
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
-    }*/
+    }
 
     .textbox h1 {
-    font-size: 20px;
+        font-size: 20px;
     }
 
     .textbox h5 {
         font-size: 20px;
-        color: #fff;
-        text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.492);
+    }
+
+    nav {
+        padding: 1% 2%; /* Adjust padding for smaller screens */
+    }
+
+    .nav-links {
+        width: 100%; /* Ensure the nav links container fills the screen */
+        position: relative; /* Adjust positioning as needed */
     }
 
     .nav-links ul li {
         display: block;
-    }
-    .nav-links {
-        position: absolute;
-        background: #333;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: 0;
-        text-align: left;
-        z-index: 2;
+        padding: 10px;
     }
 
-    nav .fa {
-        display: block;
-        color: fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
 
 }
+
+
+
+
 
 /*-------------------------------------footer------------------------------*/
 .wrap-footer-info[_ngcontent-xno-c31] {
