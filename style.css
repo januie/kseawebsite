@@ -748,6 +748,16 @@ body {
     .nav-links ul li::after {
         content: none; /* Remove the ::after pseudo-element */
     }
+
+    /* -------------------  Board Member ----------------------------- */
+    .subheader2 {
+        height: 30vh;        
+    }
+    
+    .subheader2 h1{
+        margin-top: 50px;
+    }
+
 }
 
 
