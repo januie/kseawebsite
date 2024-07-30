@@ -19,16 +19,16 @@
 
 @keyframes animate {
     0%, 100% {
-      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/1.jpeg');
+      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/main.jpeg');
     }
     25% {
-      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/2.jpg');
+      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/second.jpg');
     }
     50% {
-      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/6.jpg');
+      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/third.jpg');
     }
     75% {
-      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/11.jpeg');
+      background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/fourth.jpeg');
     }
   }
   
