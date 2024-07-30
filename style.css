@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     white-space: nowrap;
+    overflow-x: hidden;
 
 }
 
@@ -646,14 +647,7 @@ body {
 
 /* -------------------------------------------------- Media -------------------------------------------------------*/
 
-@media (max-width: 700px) {
-
-    /* General reset for overflow and margin */
-    body, html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; /* Prevent horizontal scrolling */
-    }
+@media (max-width: 700px) {    
 
     .header {
         background-position: center;
