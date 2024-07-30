@@ -660,6 +660,35 @@ body {
 
     .header img {
         margin-left: 20px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .subheader2 img {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .subheader3 img {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .subheader4 img {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .subheader5 img {
+        margin-left: 20px;
+        margin-top: 20px;
         height: 100px;
         width: 100px;
     }
@@ -692,13 +721,20 @@ body {
     #menuIcon,
     #closeIcon {
       position: absolute;
-      top: 20px;
       right: 20px;
       color: #ffffff;
       font-size: 30px;
       cursor: pointer;
       z-index: 3;
       display: block;
+    }
+
+    #menuIcon {
+        top: 60px;
+    }
+
+    #closeIcon {
+        top:20px
     }
 
     .nav-links ul {

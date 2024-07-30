@@ -806,6 +806,13 @@ li {
         background-size: cover;
     }
 
+    .subheader img {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
 
     nav {
         padding: 1% 2%; /* Adjust padding for smaller screens */
@@ -827,13 +834,20 @@ li {
     #menuIcon,
     #closeIcon {
       position: absolute;
-      top: 20px;
       right: 20px;
       color: #ffffff;
       font-size: 30px;
       cursor: pointer;
       z-index: 3;
       display: block;
+    }
+
+    #menuIcon {
+        top: 60px;
+    }
+
+    #closeIcon {
+        top:20px
     }
 
     .nav-links ul {
