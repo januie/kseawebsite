@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     white-space: nowrap;
-    overflow-x: clip;
+
 }
 
 
@@ -221,6 +221,10 @@ nav img {
 
 /* ------------------------------------------------- Event Page -----------------------------------------------------*/
 
+body {
+    overflow-x: hidden;
+}
+
 .subheader3 {
     height: 50vh;
     width: 100%;
@@ -272,7 +276,7 @@ nav img {
     cursor: pointer;
     background: #fff; /* White background for the polaroid */
     padding: 10px 10px 48px; /* Extra padding at the bottom for the polaroid look */
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Polaroid shadow */
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3); /* Polaroid shadow */
     border-radius: 5px; /* Slight rounding of corners */
     transition: transform 0.3s ease-in-out;
   }
