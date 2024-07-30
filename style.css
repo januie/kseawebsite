@@ -744,6 +744,10 @@ body {
         display: block;    
         margin-bottom: 30px;
     }
+
+    .nav-links ul li::after {
+        content: none; /* Remove the ::after pseudo-element */
+    }
 }
 
 
