@@ -646,10 +646,8 @@ body {
 
 /* -------------------------------------------------- Media -------------------------------------------------------*/
 
-
 @media (max-width: 700px) {
 
-    
     .header {
         background-position: center;
         background-size: cover;
@@ -667,27 +665,9 @@ body {
         width: 100px;
     }
 
-    .subheader2 img {
-        margin-left: 20px;
-        margin-top: 20px;
-        height: 60px;
-        width: 60px;
-    }
-
-    .subheader3 img {
-        margin-left: 20px;
-        margin-top: 20px;
-        height: 60px;
-        width: 60px;
-    }
-
-    .subheader4 img {
-        margin-left: 20px;
-        margin-top: 20px;
-        height: 60px;
-        width: 60px;
-    }
-
+    .subheader2 img,
+    .subheader3 img,
+    .subheader4 img,
     .subheader5 img {
         margin-left: 20px;
         margin-top: 20px;
@@ -704,27 +684,28 @@ body {
     }
 
     nav {
-        padding: 1% 2%; /* Adjust padding for smaller screens */
+        padding: 1% 2%;
         position: relative;
     }
 
     .nav-links {
-        position: absolute; /* Adjust positioning as needed */
+        position: fixed; /* Use fixed positioning to ensure it stays in view */
         background: #3954A6;
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: -200px; /* Initially hide off-screen */
         text-align: left;
         z-index: 2;
         transition: right 0.3s ease;
+        overflow: auto; /* Ensure content can scroll if needed */
     }
 
     #menuIcon,
     #closeIcon {
-      position: absolute;
+      position: fixed; /* Ensure icons stay in view */
       right: 20px;
-      top: 40px;
+      top: 20px; /* Adjusted to fit better */
       color: #ffffff;
       font-size: 30px;
       cursor: pointer;
@@ -732,33 +713,31 @@ body {
       display: block;
     }
 
-    .nav-links ul {
-        margin-top: 90px;   
-        margin-left: 10px;
-    }
-
-    .nav-links ul li{
-        display: block;    
-        margin-bottom: 30px;
-    }
-
     #closeIcon {
         display: none;
-      }
-
-    #menyIcon {
-        display: block;
     }
 
-    /* Show the close icon and hide the menu icon when the menu is open */
+    .nav-links.open {
+        right: 0; /* Move menu into view */
+    }
+
     .nav-links.open #menuIcon {
-        display: none;
+        display: none; /* Hide menu icon when menu is open */
     }
 
     .nav-links.open #closeIcon {
-        display: block;
+        display: block; /* Show close icon when menu is open */
     }
 
+    .nav-links ul {
+        margin-top: 80px;   
+        margin-left: 10px;
+    }
+
+    .nav-links ul li {
+        display: block;    
+        margin-bottom: 30px;
+    }
 }
 
 
