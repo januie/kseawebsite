@@ -717,7 +717,7 @@ body {
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: 1s;
+        transition: right 0.3s ease;
     }
 
     #menuIcon,
@@ -732,10 +732,8 @@ body {
       display: block;
     }
 
-    
-
     .nav-links ul {
-        margin-top: 80px;   
+        margin-top: 90px;   
         margin-left: 10px;
     }
 
@@ -747,6 +745,19 @@ body {
     #closeIcon {
         display: none;
       }
+
+    #menyIcon {
+        display: block;
+    }
+
+    /* Show the close icon and hide the menu icon when the menu is open */
+    .nav-links.open #menuIcon {
+        display: none;
+    }
+
+    .nav-links.open #closeIcon {
+        display: block;
+    }
 
 }
 
