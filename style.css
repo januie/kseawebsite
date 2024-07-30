@@ -644,10 +644,11 @@ nav img {
 
     .textbox h1 {
         font-size: 40px;
+        text-align: center;
     }
 
     .textbox h5 {
-        font-size: 17px;
+        font-size: 0px;
     }
 
     nav {

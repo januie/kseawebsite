@@ -802,13 +802,6 @@ li {
         background-size: cover;
     }
 
-    .textbox h1 {
-        font-size: 40px;
-    }
-
-    .textbox h5 {
-        font-size: 17px;
-    }
 
     nav {
         padding: 1% 2%; /* Adjust padding for smaller screens */
