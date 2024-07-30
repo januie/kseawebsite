@@ -637,7 +637,6 @@ nav img {
 /* -------------------------------------------------- Media -------------------------------------------------------*/
 @media (max-width: 700px) {
     .header {
-        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/second.jpg'); /* Adjust image for smaller screens */
         background-position: center;
         background-size: cover;
     }
