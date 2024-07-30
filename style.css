@@ -645,6 +645,7 @@ nav img {
     .textbox h1 {
         font-size: 40px;
         margin-top: -70px;
+        text-align: center;
     }
 
     .header img {
@@ -655,7 +656,9 @@ nav img {
     }
 
     .textbox h5 {
-        font-size: 0px;
+        font-size: 15px;
+        text-overflow: clip;
+        text-align: center;
     }
 
     nav {
