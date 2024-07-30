@@ -104,6 +104,12 @@ nav img {
     text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.492);
     margin: 0px;
 }
+
+#menuIcon,
+#closeIcon {
+    display: none; /* Hide both icons by default */
+}
+
 /*
 .home {
     height: 100vh;
@@ -639,6 +645,8 @@ body {
 
 
 /* -------------------------------------------------- Media -------------------------------------------------------*/
+
+
 @media (max-width: 700px) {
     .header {
         background-position: center;
@@ -646,8 +654,7 @@ body {
     }
 
     .textbox h1 {
-        font-size: 40px;
-        margin-top: -20px;
+        font-size: 50px;
         text-align: center;
     }
 
@@ -659,24 +666,54 @@ body {
 
     .textbox h5 {
         font-size: 15px;
-        text-overflow: clip;
+        position: relative;
         text-align: center;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
 
     nav {
         padding: 1% 2%; /* Adjust padding for smaller screens */
+        position: relative;
     }
 
     .nav-links {
-        width: 100%; /* Ensure the nav links container fills the screen */
-        position: relative; /* Adjust positioning as needed */
+        position: absolute; /* Adjust positioning as needed */
+        background: #3954A6;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
     }
 
-    .nav-links ul li {
-        display: block;
-        padding: 10px;
+    #menuIcon,
+    #closeIcon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #ffffff;
+      font-size: 30px;
+      cursor: pointer;
+      z-index: 3;
+      display: block;
     }
 
+    .nav-links ul {
+        margin-top: 80px;   
+        margin-left: 10px;
+    }
+
+    .nav-links ul li{
+        display: block;    
+        margin-bottom: 30px;
+    }
+
+    #closeIcon {
+        display: none;
+      }
 
 }
 

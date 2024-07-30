@@ -17,6 +17,10 @@
       href="images/kseaicon/kseawhiteicon.png"
       type="image/png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <section class="header">
@@ -24,7 +28,10 @@
         <a href="index.html"
           ><img src="images/kseaicon/ksealogo_white.png"
         /></a>
-        <div class="nav-links">
+        <i class="fa-solid fa-bars" id="menuIcon" onclick="openMenu()"></i>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" id="closeIcon" onclick="closeMenu()"></i>
+
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About UCD KSEA</a></li>
@@ -74,5 +81,22 @@
           </app-footer>
       </section>
     </section>-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      var menuIcon = document.getElementById("menuIcon");
+      var closeIcon = document.getElementById("closeIcon");
+
+      function openMenu() {
+        navLinks.style.right = "0";
+        menuIcon.style.display = "none";
+        closeIcon.style.display = "block";
+      }
+
+      function closeMenu() {
+        navLinks.style.right = "-200px";
+        menuIcon.style.display = "block";
+        closeIcon.style.display = "none";
+      }
+    </script>
   </body>
 </html>

@@ -81,6 +81,10 @@ nav img {
     margin-top: 50px;
 }
 
+#menuIcon,
+#closeIcon {
+    display: none; /* Hide both icons by default */
+}
 /*-------------------------------DO NOT CHANGE-------------------------------------*/
 
 /*-------page 1-------*/
@@ -805,17 +809,46 @@ li {
 
     nav {
         padding: 1% 2%; /* Adjust padding for smaller screens */
+        position: relative;
     }
 
     .nav-links {
-        width: 100%; /* Ensure the nav links container fills the screen */
-        position: relative; /* Adjust positioning as needed */
+        position: absolute; /* Adjust positioning as needed */
+        background: #3954A6;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
     }
 
-    .nav-links ul li {
-        display: block;
-        padding: 10px;
+    #menuIcon,
+    #closeIcon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #ffffff;
+      font-size: 30px;
+      cursor: pointer;
+      z-index: 3;
+      display: block;
     }
+
+    .nav-links ul {
+        margin-top: 80px;   
+        margin-left: 10px;
+    }
+
+    .nav-links ul li{
+        display: block;    
+        margin-bottom: 30px;
+    }
+
+    #closeIcon {
+        display: none;
+      }
 
 
 }
