@@ -269,15 +269,15 @@
       var closeIcon = document.getElementById("closeIcon");
 
       function openMenu() {
-        document.querySelector(".nav-links").classList.add("open");
-        document.getElementById("menuIcon").style.display = "none"; // Hide menu icon
-        document.getElementById("closeIcon").style.display = "block"; // Show close icon
+        navLinks.style.right = "0";
+        menuIcon.style.display = "none";
+        closeIcon.style.display = "block";
       }
 
       function closeMenu() {
-        document.querySelector(".nav-links").classList.remove("open");
-        document.getElementById("menuIcon").style.display = "block"; // Show menu icon
-        document.getElementById("closeIcon").style.display = "none"; // Hide close icon
+        navLinks.style.right = "-200px";
+        menuIcon.style.display = "block";
+        closeIcon.style.display = "none";
       }
     </script>
   </body>
