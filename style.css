@@ -706,7 +706,7 @@ body {
     #closeIcon {
       position: fixed; /* Ensure icons stay in view */
       right: 20px;
-      top: 20px;
+      top: 40px;
       color: #ffffff;
       font-size: 30px;
       cursor: pointer;
@@ -715,6 +715,10 @@ body {
 
     #closeIcon {
         display: none;
+    }
+
+    #menuIcon {
+        display: block;
     }
 
     .nav-links.open {
@@ -744,12 +748,12 @@ body {
     }
 
     /* -------------------  Board Member ----------------------------- */
-    .subheader2 {
+    .subheader2, .subheader3, .subheader4, .subheader5 {
         height: 30vh;        
     }
     
-    .subheader2 h1{
-        margin-top: 50px;
+   .subheader2 h1, .subheader3 h1, .subheader4 h1, .subheader5 h1{
+        margin-top: 20px;
     }
 
 }
