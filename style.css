@@ -649,9 +649,7 @@ body {
 
 @media (max-width: 700px) {
 
-    *{
-        overflow-x: hidden;
-    }
+    
     .header {
         background-position: center;
         background-size: cover;
@@ -672,29 +670,29 @@ body {
     .subheader2 img {
         margin-left: 20px;
         margin-top: 20px;
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
     }
 
     .subheader3 img {
         margin-left: 20px;
         margin-top: 20px;
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
     }
 
     .subheader4 img {
         margin-left: 20px;
         margin-top: 20px;
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
     }
 
     .subheader5 img {
         margin-left: 20px;
         margin-top: 20px;
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
     }
 
     .textbox h5 {
@@ -726,6 +724,7 @@ body {
     #closeIcon {
       position: absolute;
       right: 20px;
+      top: 40px;
       color: #ffffff;
       font-size: 30px;
       cursor: pointer;
@@ -733,13 +732,7 @@ body {
       display: block;
     }
 
-    #menuIcon {
-        top: 60px;
-    }
-
-    #closeIcon {
-        top:20px
-    }
+    
 
     .nav-links ul {
         margin-top: 80px;   
