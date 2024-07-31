@@ -808,6 +808,19 @@ body {
         margin-left: 100px;      
     }
     
+    /* --------------------------- Board Member Page media ---------------------------- */
+    
+    .board-member {
+        text-align: center;
+        margin-bottom: 20px; /* Reduce bottom margin for better spacing */
+        padding: 10px;
+    }
+    
+    .board-member .image-container {
+        width: 120px; /* Adjust the size of the images */
+        padding-top: 120px; /* Maintain 1:1 aspect ratio */
+        border-radius: 50%; /* Maintain circular shape */
+    }
 }
 
 
