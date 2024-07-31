@@ -394,8 +394,8 @@ body {
 .subheader4 {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2024_spring/ksea4cut/IMG_5615.JPG);
-    background-position: center;
+    background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url(images/event/2024_spring/ksea4cut/faqcover.JPG);
+    background-position-y: 57%;
     background-size: cover;
     text-align: center;
     color: #FFDC34;
@@ -613,7 +613,6 @@ body {
     font-size: 28px;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.492);
-    margin-top: 30px;
     margin-bottom: 50px;
 }
 
