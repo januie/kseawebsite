@@ -748,7 +748,7 @@ body {
         content: none; /* Remove the ::after pseudo-element */
     }
 
-    /* -------------------  Board Member ----------------------------- */
+    /* -------------------  Board Member Media----------------------------- */
     .subheader2, .subheader3, .subheader4, .subheader5 {
         height: 30vh;        
     }
@@ -757,7 +757,7 @@ body {
         margin-top: 20px;
     }
 
-    /* ------------------------ Footer ------------------------------- */
+    /* ------------------------ Footer Media ------------------------------- */
     .wrap-footer-info[_ngcontent-xno-c31] {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
@@ -789,6 +789,10 @@ body {
 
     .con-sns[_ngcontent-xno-c31] ul[_ngcontent-xno-c31] li {
         margin: 0 10px; /* Space between icons */
+    }
+
+    #ngcontent1, #ngcontent2 {
+        display: none;
     }
     
 }

@@ -873,7 +873,7 @@ li {
         content: none; /* Remove the ::after pseudo-element */
     }
 
-    /* --------------------- footer --------------------- */
+    /* --------------------- footer media --------------------- */
     .wrap-footer-info[_ngcontent-xno-c31] {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
@@ -905,6 +905,10 @@ li {
 
     .con-sns[_ngcontent-xno-c31] ul[_ngcontent-xno-c31] li {
         margin: 0 10px; /* Space between icons */
+    }
+
+    #ngcontent1, #ngcontent2 {
+        display: none;
     }
 
 
