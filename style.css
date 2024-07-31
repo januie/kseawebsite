@@ -810,16 +810,21 @@ body {
     
     /* --------------------------- Board Member Page media ---------------------------- */
     
-    .board-member {
-        text-align: center;
-        margin-bottom: 20px; /* Reduce bottom margin for better spacing */
-        padding: 10px;
+    .board-members {
+        display: flex;
+        flex-direction: column; /* Stack board members vertically */
+        align-items: center; /* Center items horizontally */
+        gap: 20px;
     }
-    
-    .board-member .image-container {
-        width: 120px; /* Adjust the size of the images */
-        padding-top: 120px; /* Maintain 1:1 aspect ratio */
-        border-radius: 50%; /* Maintain circular shape */
+
+    .board-member{
+        width: 100%; /* Full width for each board member */
+        max-width: 300px; /* Optional: set a max-width for the board member */
+        text-align: center; /* Center text */
+    }
+
+    .image-container {
+        margin-left: 45px;
     }
 }
 
