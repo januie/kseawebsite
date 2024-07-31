@@ -794,6 +794,19 @@ body {
     #ngcontent1, #ngcontent2 {
         display: none;
     }
+
+    /* -------------------------- Event page media ------------------------ */
+    .popup-content {
+        display: none; /* Hide the image */
+    }
+    
+      .popup-text {
+        display: block; /* Ensure the text is visible */
+        max-width: 100%; /* Adjust width for better fit */
+        max-height: none; /* Remove height constraints */
+        justify-content: center;
+        margin-left: 100px;      
+    }
     
 }
 
