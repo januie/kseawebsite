@@ -295,6 +295,7 @@ body {
   }
   
   .polaroid p {
+    width: 100%;
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -305,6 +306,8 @@ body {
     font-weight: bold;
     color: #333;
     margin: 0;
+    text-align: center;
+
   }
   
   .polaroid:hover {
