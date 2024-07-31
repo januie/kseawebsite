@@ -888,7 +888,7 @@ li {
         max-height: none; /* Remove height constraints */
         justify-content: center;
         margin-left: 70px;
-        margin-top: 20px;
+        margin-top: 0;
         padding: 10px;     
     }
 
