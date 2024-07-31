@@ -851,26 +851,8 @@ li {
     #ngcontent1, #ngcontent2 {
         display: none;
     }
-
-    /* -------------------------- Event page media ------------------------ */
-    /* Hide carousel arrows */
-    .prev, .next {
-        display: none;
-    }
-    .popup-content {
-        display: none; /* Hide the image */
-    }
     
-      .popup-text {
-        display: block; /* Ensure the text is visible */
-        max-width: 100%; /* Adjust width for better fit */
-        max-height: none; /* Remove height constraints */
-        justify-content: center;
-        margin-left: 70px;
-        padding: 10px;     
-    }
-    
-    /* --------------------------- Board Member Page media ---------------------------- */
+    /* --------------------------- Board Member Media ---------------------------- */
     
     .board-members {
         display: flex;
@@ -888,6 +870,26 @@ li {
     .image-container {
         margin-left: 45px;
     }
+
+    /* -------------------------- Event Media ------------------------ */
+    /* Hide carousel arrows */
+    .prev, .next {
+        display: none;
+    }
+    .popup-content {
+        display: none; /* Hide the image */
+    }
+    
+      .popup-text {
+        display: block; /* Ensure the text is visible */
+        max-width: 100%; /* Adjust width for better fit */
+        max-height: none; /* Remove height constraints */
+        justify-content: center;
+        margin-left: 70px;
+        margin-top: 20px;
+        padding: 10px;     
+    }
+
 }
 
 
