@@ -357,6 +357,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     word-wrap: break-word;
     white-space: normal;
+
+    
   }
 
 .close, .prev, .next {
@@ -810,7 +812,7 @@ li {
     }
     
    .subheader2 h1, .subheader3 h1, .subheader4 h1, .subheader5 h1{
-        margin-top: 40px;
+        margin-top: 20px;
     }
     
     /* --------------------------- Board Member Media ---------------------------- */
@@ -850,9 +852,43 @@ li {
         margin-top: 0;
         padding: 10px;     
     }
+    /* ------------------------ Footer Media ------------------------------- */
+    .wrap-footer-info[_ngcontent-xno-c31] {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 1em; /* Adjust padding for smaller screens */
+    }
 
-    
+    .con-info[_ngcontent-xno-c31] {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+        margin-bottom: 1em; /* Space between icons and text */
+    }
 
+    .con-info[_ngcontent-xno-c31] > img[_ngcontent-xno-c31] {
+        display: none; /* Hide the KSEA logo on small screens */
+    }
+
+    .con-sns[_ngcontent-xno-c31] {
+        margin-bottom: 1em; /* Space below the icons */
+    }
+
+    .con-sns[_ngcontent-xno-c31] ul[_ngcontent-xno-c31] {
+        display: flex;
+        justify-content: center; /* Center the icons horizontally */
+        align-items: center; /* Center the icons vertically */
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+    }
+
+    .con-sns[_ngcontent-xno-c31] ul[_ngcontent-xno-c31] li {
+        margin: 0 10px; /* Space between icons */
+    }
+
+    #ngcontent1, #ngcontent2 {
+        display: none;
+    }
 }
 
 
