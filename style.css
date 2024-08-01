@@ -411,13 +411,15 @@ body {
     width: 90%;
     position: relative;
     top: 60%;
-    left: 50%;
-    transform: translate(-50%, 0%);
     text-align: left;
+    padding:5%;
 }
 .questions{
-    width: 80%;
-    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.492);
+    color: #2E3192;
+    font-size: 28px;
 }
 
 .title h1 {
@@ -852,7 +854,8 @@ li {
         margin-top: 0;
         padding: 10px;     
     }
-    /* -------------------------- Event Media ------------------------ */
+    /* -------------------------- faq Media ------------------------ */
+
     .faq label::after {
         content: "";
     }
@@ -861,6 +864,16 @@ li {
         content: "";
     }
 
+    .questions {
+        text-align: center;
+        margin: 0 auto 60px auto;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.492);
+        color: #2E3192;
+        font-size: 28px;
+        width: 80%;
+    }
+    
+    
     /* ------------------------ Footer Media ------------------------------- */
     .wrap-footer-info[_ngcontent-xno-c31] {
         flex-direction: column; /* Stack items vertically */

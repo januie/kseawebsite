@@ -788,82 +788,115 @@ li {
     unicode-bidi: isolate;
 }
 
-/* ---------------------------- Media ------------------------------- */
+/* -------------------------------------------------- Media -------------------------------------------------------*/
 
-@media (max-width: 700px) {
+@media (max-width: 700px) {    
+
     .header {
-        background-image: linear-gradient(rgba(22, 38, 100, 0.67), rgba(16, 38, 124, 0.119)), url('images/home/second.jpg'); /* Adjust image for smaller screens */
         background-position: center;
         background-size: cover;
+        background-image: url(images/home/watertower.jpg);
+        animation: none;
     }
 
-    .subheader img {
+    .textbox h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .header img {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .subheader1  {
         margin-left: 20px;
         margin-top: 20px;
         height: 60px;
         width: 60px;
     }
 
+    .textbox h5 {
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
 
     nav {
-        padding: 1% 2%; /* Adjust padding for smaller screens */
+        padding: 1% 2%;
         position: relative;
     }
 
     .nav-links {
-        position: absolute; /* Adjust positioning as needed */
+        position: fixed; /* Use fixed positioning to ensure it stays in view */
         background: #3954A6;
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: -200px; /* Initially hide off-screen */
         text-align: left;
         z-index: 2;
         transition: right 0.3s ease;
+        overflow: auto; /* Ensure content can scroll if needed */
     }
 
     #menuIcon,
     #closeIcon {
-      position: absolute;
+      position: fixed; /* Ensure icons stay in view */
       right: 20px;
       top: 40px;
       color: #FFDC34;
       font-size: 30px;
       cursor: pointer;
       z-index: 3;
-      display: block;
-    }
-
-    .nav-links ul {
-        margin-top: 90px;   
-        margin-left: 10px;
-    }
-
-    .nav-links ul li{
-        display: block;    
-        margin-bottom: 30px;
     }
 
     #closeIcon {
         display: none;
-      }
+    }
 
-      #menuIcon {
+    #menuIcon {
         display: block;
     }
 
-    .subheader h1{
-        height: 30vh;        
+    .nav-links.open {
+        right: 0; /* Move menu into view */
     }
-    
-   .subheader h1{
-        margin-top: 20px;
+
+    .nav-links.open #menuIcon {
+        display: none; /* Hide menu icon when menu is open */
+    }
+
+    .nav-links.open #closeIcon {
+        display: block; /* Show close icon when menu is open */
+    }
+
+    .nav-links ul {
+        margin-top: 80px;   
+        margin-left: 10px;
+    }
+
+    .nav-links ul li {
+        display: block;    
+        margin-bottom: 30px;
     }
 
     .nav-links ul li::after {
         content: none; /* Remove the ::after pseudo-element */
     }
 
+    .subheader {
+        height: 30vh;        
+    }
+    
+   .subheader1 h1{
+        margin-top: 20px;
+    }
+    
     /* ------------------------ Footer Media ------------------------------- */
     .wrap-footer-info[_ngcontent-xno-c31] {
         flex-direction: column; /* Stack items vertically */
@@ -903,3 +936,9 @@ li {
         display: block; /* Ensure these items are shown in the media query */
     }
 }
+
+
+
+
+
+
