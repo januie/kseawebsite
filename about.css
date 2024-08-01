@@ -128,7 +128,7 @@ nav img {
     top: 28%;
     width: 38.8%;
     height: auto;
-    background: url('kseaicon.png') no-repeat center center;
+    background: url('images/about/kseaicon-1.png');
     background-size: contain;
 }
 
@@ -852,7 +852,7 @@ li {
         display: block;
     }
 
-      .subheader{
+    .subheader h1{
         height: 30vh;        
     }
     
