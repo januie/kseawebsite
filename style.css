@@ -213,15 +213,15 @@ nav img {
 }
 
 .image-container {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .image-container:hover {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 
@@ -852,6 +852,15 @@ li {
         margin-top: 0;
         padding: 10px;     
     }
+    /* -------------------------- Event Media ------------------------ */
+    .faq label::after {
+        content: "";
+    }
+
+    .faq input:checked + label::after {
+        content: "";
+    }
+
     /* ------------------------ Footer Media ------------------------------- */
     .wrap-footer-info[_ngcontent-xno-c31] {
         flex-direction: column; /* Stack items vertically */
@@ -882,14 +891,17 @@ li {
         padding: 0; /* Remove default padding */
     }
 
-    .con-sns[_ngcontent-xno-c31] ul[_ngcontent-xno-c31] li {
-        margin: 0 10px; /* Space between icons */
+    .con-info[_ngcontent-xno-c31] ul[_ngcontent-xno-c31] li {
+        margin: 10px 0;/* Space between icons */
+        font-size: 88%; /* Adjust font size for smaller screens */
     }
 
     #ngcontent1, #ngcontent2 {
-        display: none;
+        display: block; /* Ensure these items are shown in the media query */
     }
 }
+
+
 
 
 
